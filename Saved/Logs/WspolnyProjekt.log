@@ -1421,3 +1421,299 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.17-19.56.26:292][ 85]SourceControl: [main 31be241] this was a first test
 [2024.05.17-19.56.26:292][ 85]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
 [2024.05.17-19.56.26:314][ 85]SourceControl: Commited [main 31be241] this was a first test.
+[2024.05.17-19.57.03:802][510]LogDerivedDataCache: C:/Users/jakub/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:04:25.055 and deleted 0 files with total size 0 MiB and 216 empty folders. Scanned 195306 files in 73861 folders with total size 6163 MiB.
+[2024.05.17-20.01.26:448][166]LogViewport: Scene viewport resized to 1138x578, mode Windowed.
+[2024.05.17-20.01.36:084][304]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.17-20.01.36:084][304]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.05.17-20.01.36:085][304]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.17-20.01.36:085][304]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.05.17-20.01.36:085][304]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.05.17-20.01.36:085][304]LogWorldPartition: Display: WorldPartition initialize took 779 us (total: 44 ms)
+[2024.05.17-20.01.36:086][304]LogObjectTools: Deleting 1 worlds: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2024.05.17-20.01.36:086][304]LogObjectTools: Currently 8 active worlds: /Game/Levels/PersistentLevel.PersistentLevel, /Game/Levels/MateuszRusinek.MateuszRusinek, /Game/Levels/PrzemyslawSajan.PrzemyslawSajan, /Game/Levels/WiktorMroczka.WiktorMroczka, /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2
+[2024.05.17-20.01.36:091][304]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.05.17-20.01.38:162][304]LogSlate: Window 'Delete Assets' being destroyed
+[2024.05.17-20.01.38:175][304]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.05.17-20.01.38:175][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.17-20.01.38:175][304]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.05.17-20.01.40:341][304]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.05.17-20.01.40:345][304]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.05.17-20.01.40:347][304]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.05.17-20.01.42:579][304]SourceControl: Error: Updated 0 paths from the index
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/4/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/': No such file or directory
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/ThirdPerson/Maps/ThirdPersonMap.umap'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/43/HYQWORMY4JDQ5X3OKZXFLC.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FG/C9C8NKPQ680JETAE5ROTT1.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/EY/87SHEJN5UBEAN2K5OV1G6R.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/M3/7JQC72ZY37QM4IT43WD5CW.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/LN/30UBDLYFFA5ZR7U4W4L4GG.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/R1/TS5OQ5CRUWFZYL1ZQ7I416.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/CZ/K2YM0JIRZ78IHGM8W2QBAF.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/J7/N10XDC9G27EMLS5AGZ6AVV.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C.uasset'
+[2024.05.17-20.01.45:060][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/S1/DXUWD12MD3HRWVVXX076BY.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/17/6LXV4Y6DE3LUT705XNU4DZ.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4D/BBOCKSZY1GVHTFRX0PR0O8.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/FR/LBG6LPN5JCL3FMVSI2CK6R.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/4/VW/TY7TSUER9KKGHX2BMKSL0L.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/D8/3MZ6M1DB94VN44C87D65WR.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/TK/PIQ0B2FNWR15P52TECP27A.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/KN/KHZG97SS6AL73U7AXDWH6J.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/7N/FDH7Y28CQFXDK8P6MM1HXM.uasset'
+[2024.05.17-20.01.45:061][304]SourceControl: rm 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/GP/22PD314FCWY4ZK61DE3XZC.uasset'
+[2024.05.17-20.01.45:161][304]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/ThirdPerson/Maps/ThirdPersonMap does not exist, will not scan.
+[2024.05.17-20.01.49:126][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.01.54:388][186]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.17-20.02.15:411][186]LogSlate: Window 'Submit Files' being destroyed
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/4/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.17:756][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/': No such file or directory
+[2024.05.17-20.02.17:974][186]LogSourceControl: commit successful: [main cd5cb39] deleting default world as it is needed to create a basic type world
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/4/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: Error: warning: could not open directory 'Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/': No such file or directory
+[2024.05.17-20.02.20:000][186]SourceControl: [main cd5cb39] deleting default world as it is needed to create a basic type world
+[2024.05.17-20.02.20:000][186]SourceControl:  47 files changed, 0 insertions(+), 0 deletions(-)
+[2024.05.17-20.02.20:000][186]SourceControl:  delete mode 100644 Content/ThirdPerson/Maps/ThirdPersonMap.umap
+[2024.05.17-20.02.20:000][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/43/HYQWORMY4JDQ5X3OKZXFLC.uasset
+[2024.05.17-20.02.20:000][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FG/C9C8NKPQ680JETAE5ROTT1.uasset
+[2024.05.17-20.02.20:000][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset
+[2024.05.17-20.02.20:000][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset
+[2024.05.17-20.02.20:000][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset
+[2024.05.17-20.02.20:000][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/EY/87SHEJN5UBEAN2K5OV1G6R.uasset
+[2024.05.17-20.02.20:000][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/M3/7JQC72ZY37QM4IT43WD5CW.uasset
+[2024.05.17-20.02.20:000][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset
+[2024.05.17-20.02.20:000][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR.uasset
+[2024.05.17-20.02.20:000][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/LN/30UBDLYFFA5ZR7U4W4L4GG.uasset
+[2024.05.17-20.02.20:000][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset
+[2024.05.17-20.02.20:000][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96.uasset
+[2024.05.17-20.02.20:000][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/R1/TS5OQ5CRUWFZYL1ZQ7I416.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/CZ/K2YM0JIRZ78IHGM8W2QBAF.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/J7/N10XDC9G27EMLS5AGZ6AVV.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/S1/DXUWD12MD3HRWVVXX076BY.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/17/6LXV4Y6DE3LUT705XNU4DZ.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4D/BBOCKSZY1GVHTFRX0PR0O8.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/FR/LBG6LPN5JCL3FMVSI2CK6R.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/4/VW/TY7TSUER9KKGHX2BMKSL0L.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/D8/3MZ6M1DB94VN44C87D65WR.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/TK/PIQ0B2FNWR15P52TECP27A.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/KN/KHZG97SS6AL73U7AXDWH6J.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/7N/FDH7Y28CQFXDK8P6MM1HXM.uasset
+[2024.05.17-20.02.20:001][186]SourceControl:  delete mode 100644 Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/GP/22PD314FCWY4ZK61DE3XZC.uasset
+[2024.05.17-20.02.20:020][186]SourceControl: Commited [main cd5cb39] deleting default world as it is needed to create a basic type world.
+[2024.05.17-20.02.24:913][644]SourceControl: Error: fatal: invalid object name 'C'.
+[2024.05.17-20.02.24:913][644]LogSourceControl: Warning: UpdateHistory Failed.
