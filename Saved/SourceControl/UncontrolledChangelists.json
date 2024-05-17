@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt/Content/StarterContent/Particles/P_Ambient_Dust.uasset",
+				"C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt/Content/Levels/WiktorMroczka.umap",
+				"C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt/Content/Levels/JakubMatyaszczyk.umap",
+				"C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt/Content/Levels/PrzemyslawSajan.umap",
+				"C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt/Content/Levels/MateuszRusinek.umap",
+				"C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt/Content/Levels/PersistentLevel.umap"
+			]
+		}
+	]
+}
