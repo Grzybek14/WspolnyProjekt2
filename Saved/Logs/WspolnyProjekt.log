@@ -2753,3 +2753,531 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.31-18.44.18:776][602]SourceControl:  create mode 100644 Content/Colors/Blue.uasset
 [2024.05.31-18.44.18:797][602]SourceControl: Commited [main 5ab5e11] Added blue color and Window actor and made a first boundary building..
 [2024.05.31-18.44.18:820][602]LogAutomationController: Ignoring very large delta of 33.64 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.31-18.49.14:068][986]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.49.14:068][986]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.49.14:068][986]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_11
+[2024.05.31-18.49.14:069][986]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_11
+[2024.05.31-18.49.18:615][ 95]LogSlate: Window 'Actor Placement Warning' being destroyed
+[2024.05.31-18.49.18:619][ 95]Message dialog closed, result: Cancel, title: Actor Placement Warning, text: The actor will be placed outside the bounds of the current level. Continue?
+[2024.05.31-18.49.18:624][ 96]LogAutomationController: Ignoring very large delta of 3.60 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.31-18.49.27:200][ 60]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.49.27:200][ 60]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.49.27:200][ 60]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_12
+[2024.05.31-18.49.27:201][ 60]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_12
+[2024.05.31-18.49.30:480][ 89]LogSlate: Window 'Actor Placement Warning' being destroyed
+[2024.05.31-18.49.30:484][ 89]Message dialog closed, result: Cancel, title: Actor Placement Warning, text: The actor will be placed outside the bounds of the current level. Continue?
+[2024.05.31-18.49.30:490][ 90]LogAutomationController: Ignoring very large delta of 3.02 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.31-18.49.36:214][725]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.49.36:214][725]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.49.36:214][725]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_13
+[2024.05.31-18.49.36:215][725]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_13
+[2024.05.31-18.49.43:128][753]LogSlate: Window 'Actor Placement Warning' being destroyed
+[2024.05.31-18.49.43:132][753]Message dialog closed, result: Cancel, title: Actor Placement Warning, text: The actor will be placed outside the bounds of the current level. Continue?
+[2024.05.31-18.49.43:137][754]LogAutomationController: Ignoring very large delta of 6.66 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.31-18.50.10:823][971]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.31-18.50.10:829][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.31-18.50.10:829][971]PIE: New page: PIE session: PersistentLevel (31 maj 2024, 22:50:10)
+[2024.05.31-18.50.10:857][971]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.05.31-18.50.10:858][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001820s)
+[2024.05.31-18.50.10:858][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PersistentLevel.PersistentLevel to /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel (0.001857s)
+[2024.05.31-18.50.10:868][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.05.31-18.50.10:870][971]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-18.50.10:870][971]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.31-18.50.10:871][971]LogAIModule: Creating AISystem for world PersistentLevel
+[2024.05.31-18.50.10:871][971]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2024.05.31-18.50.10:871][971]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.05.31-18.50.10:871][971]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.31-18.50.10:871][971]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.31-18.50.10:871][971]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.31-18.50.10:871][971]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.31-18.50.10:871][971]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.31-18.50.10:871][971]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.31-18.50.10:871][971]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.31-18.50.10:871][971]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.31-18.50.10:871][971]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.31-18.50.10:871][971]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.31-18.50.10:871][971]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.31-18.50.10:873][971]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.31-18.50.10:896][971]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2024.05.31-18.50.10:896][971]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.31-18.50.10:896][971]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.31-18.50.10:896][971]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.31-18.50.10:898][971]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.05.31-18.50.10:898][971]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.05.31-18.50.10:899][971]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.05.31-18.50.10:899][971]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.05.31-18.50.10:899][971]LogInit: FAudioDevice initialized with ID 7.
+[2024.05.31-18.50.10:899][971]LogAudio: Display: Audio Device (ID: 7) registered with world 'PersistentLevel'.
+[2024.05.31-18.50.10:899][971]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.05.31-18.50.10:902][971]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.05.31-18.50.10:915][971]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel up for play (max tick rate 0) at 2024.05.31-20.50.10
+[2024.05.31-18.50.10:915][971]LogWorld: Bringing up level for play took: 0.000376
+[2024.05.31-18.50.10:917][971]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.05.31-18.50.10:921][971]PIE: Server logged in
+[2024.05.31-18.50.10:921][971]PIE: Play in editor total start time 0,093 seconds.
+[2024.05.31-18.50.13:506][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.31-18.50.13:506][264]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.05.31-18.50.13:509][264]LogWorld: UWorld::CleanupWorld for PersistentLevel, bSessionEnded=true, bCleanupResources=true
+[2024.05.31-18.50.13:509][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-18.50.13:511][264]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.31-18.50.13:514][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-18.50.13:525][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.31-18.50.13:526][264]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.05.31-18.50.13:526][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.05.31-18.50.13:527][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.05.31-18.50.13:534][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.05.31-18.50.13:593][265]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.05.31-18.50.13:606][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.05.31-18.50.22:297][282]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.50.22:297][282]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.50.22:298][282]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_14
+[2024.05.31-18.50.22:298][282]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_14
+[2024.05.31-18.50.23:772][319]LogSlate: Window 'Actor Placement Warning' being destroyed
+[2024.05.31-18.50.23:776][319]Message dialog closed, result: Cancel, title: Actor Placement Warning, text: The actor will be placed outside the bounds of the current level. Continue?
+[2024.05.31-18.50.24:536][399]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.50.24:536][399]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.50.24:537][399]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_15
+[2024.05.31-18.50.24:537][399]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_15
+[2024.05.31-18.50.26:106][456]LogSlate: Window 'Actor Placement Warning' being destroyed
+[2024.05.31-18.50.26:110][456]Message dialog closed, result: Cancel, title: Actor Placement Warning, text: The actor will be placed outside the bounds of the current level. Continue?
+[2024.05.31-18.50.32:437][190]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.50.32:437][190]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.50.32:438][190]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_16
+[2024.05.31-18.50.32:438][190]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_16
+[2024.05.31-18.50.32:745][223]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.50.32:745][223]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.50.32:747][223]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_17
+[2024.05.31-18.50.32:747][223]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_17
+[2024.05.31-18.50.39:766][959]Cmd: DELETE
+[2024.05.31-18.50.39:766][959]Cmd: ACTOR DELETE
+[2024.05.31-18.50.39:769][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.05.31-18.50.39:779][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.05.31-18.50.39:782][959]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2024.05.31-18.51.01:177][412]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.05.31-18.51.01:177][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-18.51.02:267][535]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.05.31-18.51.02:267][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-18.51.06:792][ 58]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.51.06:793][ 58]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.51.06:793][ 58]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_18
+[2024.05.31-18.51.06:793][ 58]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_18
+[2024.05.31-18.51.14:412][ 76]LogSlate: Window 'Actor Placement Warning' being destroyed
+[2024.05.31-18.51.14:416][ 76]Message dialog closed, result: Cancel, title: Actor Placement Warning, text: The actor will be placed outside the bounds of the current level. Continue?
+[2024.05.31-18.51.14:421][ 76]LogAutomationController: Ignoring very large delta of 7.47 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.31-18.51.33:191][225]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.JakubMatyaszczyk
+[2024.05.31-18.51.33:191][225]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-18.51.33:191][225]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.31-18.51.33:321][225]LogSlate: Took 0.006412 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.05.31-18.51.37:403][612]LogSlate: Window 'JakubMatyaszczyk' being destroyed
+[2024.05.31-18.51.37:409][612]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.05.31-18.51.37:409][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-18.51.46:504][684]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.51.46:504][684]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.51.46:504][684]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_19
+[2024.05.31-18.51.46:504][684]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_19
+[2024.05.31-18.51.47:629][704]LogSlate: Window 'Actor Placement Warning' being destroyed
+[2024.05.31-18.51.47:633][704]Message dialog closed, result: Ok, title: Actor Placement Warning, text: The actor will be placed outside the bounds of the current level. Continue?
+[2024.05.31-18.51.47:633][704]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.51.47:633][704]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.51.47:634][704]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_20
+[2024.05.31-18.51.47:634][704]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_20
+[2024.05.31-18.52.03:861][533]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.03:861][533]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.03:861][533]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_21
+[2024.05.31-18.52.03:862][533]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_21
+[2024.05.31-18.52.04:016][550]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.04:016][550]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.04:017][550]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_22
+[2024.05.31-18.52.04:017][550]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_22
+[2024.05.31-18.52.05:629][729]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.05:629][729]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.05:630][729]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_23
+[2024.05.31-18.52.05:630][729]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_23
+[2024.05.31-18.52.05:912][760]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.05:912][760]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.05:913][760]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_24
+[2024.05.31-18.52.05:913][760]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_24
+[2024.05.31-18.52.08:549][ 71]Cmd: DELETE
+[2024.05.31-18.52.08:549][ 71]Cmd: ACTOR DELETE
+[2024.05.31-18.52.08:553][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.05.31-18.52.08:567][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.05.31-18.52.08:573][ 71]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2024.05.31-18.52.09:885][221]Cmd: DELETE
+[2024.05.31-18.52.09:885][221]Cmd: ACTOR DELETE
+[2024.05.31-18.52.09:888][221]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.05.31-18.52.09:899][221]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.05.31-18.52.09:901][221]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2024.05.31-18.52.11:224][372]Cmd: DELETE
+[2024.05.31-18.52.11:224][372]Cmd: ACTOR DELETE
+[2024.05.31-18.52.11:227][372]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.05.31-18.52.11:239][372]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.05.31-18.52.11:241][372]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2024.05.31-18.52.24:322][846]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-18.52.24:379][846]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.05.31-18.52.24:408][846]LogSavePackage: Moving output files for package: /Game/Levels/JakubMatyaszczyk
+[2024.05.31-18.52.24:417][846]LogSavePackage: Moving '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Saved/JakubMatyaszczyk5E759C5F4D366894AF800496D8035157.tmp' to '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Levels/JakubMatyaszczyk.umap'
+[2024.05.31-18.52.24:419][846]LogFileHelpers: Saving map 'JakubMatyaszczyk' took 0.051
+[2024.05.31-18.52.24:424][846]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 1.46 sec)
+[2024.05.31-18.52.24:425][846]AssetCheck: New page: Asset Save: JakubMatyaszczyk
+[2024.05.31-18.52.24:425][846]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk
+[2024.05.31-18.52.31:671][655]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.31:671][655]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.31:672][655]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_25
+[2024.05.31-18.52.31:672][655]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_25
+[2024.05.31-18.52.32:032][695]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.32:032][695]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.32:033][695]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_26
+[2024.05.31-18.52.32:033][695]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_26
+[2024.05.31-18.52.33:374][837]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.33:374][837]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.33:374][837]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_27
+[2024.05.31-18.52.33:376][837]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_27
+[2024.05.31-18.52.33:878][892]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.33:878][892]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.05.31-18.52.33:879][892]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_28
+[2024.05.31-18.52.33:879][892]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.StaticMeshActor_28
+[2024.05.31-18.52.40:866][685]Cmd: DELETE
+[2024.05.31-18.52.40:866][685]Cmd: ACTOR DELETE
+[2024.05.31-18.52.40:868][685]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.05.31-18.52.40:881][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.05.31-18.52.40:884][685]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2024.05.31-18.57.07:360][247]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.05.31-18.57.07:360][247]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.05.31-18.57.07:361][247]LogActorFactory: Actor Factory spawned Class /Script/Engine.PointLight as actor: PointLight /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.PointLight_0
+[2024.05.31-18.57.07:362][247]LogActorFactory: Actor Factory spawned Class /Script/Engine.PointLight as actor: PointLight /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.PointLight_0
+[2024.05.31-18.57.09:580][495]Cmd: TRANSACTION UNDO
+[2024.05.31-18.57.09:580][495]LogEditorTransaction: Undo Create Actor
+[2024.05.31-18.57.46:957][869]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Colors/Blue.Blue
+[2024.05.31-18.57.46:958][869]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-18.57.46:958][869]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.31-18.57.47:071][869]LogViewport: Scene viewport resized to 1335x894, mode Windowed.
+[2024.05.31-18.58.10:790][619]LogSlate: Window 'Color Picker' being destroyed
+[2024.05.31-18.58.12:385][786]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-18.58.12:476][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Blue" FILE="../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Colors/Blue.uasset" SILENT=true
+[2024.05.31-18.58.12:488][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.05.31-18.58.12:505][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.05.31-18.58.12:506][786]LogSavePackage: Moving output files for package: /Game/Colors/Blue
+[2024.05.31-18.58.12:508][786]LogSavePackage: Moving '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Saved/Blue437B329643354AEB702D65B4E37A1BED.tmp' to '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Colors/Blue.uasset'
+[2024.05.31-18.58.12:514][786]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 1.59 sec)
+[2024.05.31-18.58.12:515][786]AssetCheck: New page: Asset Save: Blue
+[2024.05.31-18.58.12:515][786]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Colors/Blue.Blue
+[2024.05.31-18.59.09:769][509]LogSlate: Window 'Color Picker' being destroyed
+[2024.05.31-18.59.47:859][254]LogSlate: Window 'Color Picker' being destroyed
+[2024.05.31-19.00.41:059][703]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.31-19.00.41:065][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.31-19.00.41:065][703]PIE: New page: PIE session: PersistentLevel (31 maj 2024, 23:00:41)
+[2024.05.31-19.00.41:107][703]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.05.31-19.00.41:108][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001688s)
+[2024.05.31-19.00.41:108][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PersistentLevel.PersistentLevel to /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel (0.001726s)
+[2024.05.31-19.00.41:121][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.05.31-19.00.41:124][703]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-19.00.41:124][703]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.31-19.00.41:124][703]LogAIModule: Creating AISystem for world PersistentLevel
+[2024.05.31-19.00.41:124][703]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2024.05.31-19.00.41:125][703]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.05.31-19.00.41:125][703]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.31-19.00.41:125][703]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.31-19.00.41:125][703]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.31-19.00.41:125][703]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.31-19.00.41:125][703]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.31-19.00.41:125][703]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.31-19.00.41:125][703]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.31-19.00.41:125][703]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.31-19.00.41:125][703]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.31-19.00.41:125][703]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.31-19.00.41:125][703]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.31-19.00.41:127][703]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.31-19.00.41:151][703]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2024.05.31-19.00.41:151][703]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.31-19.00.41:151][703]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.31-19.00.41:151][703]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.31-19.00.41:153][703]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.05.31-19.00.41:153][703]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.05.31-19.00.41:154][703]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.05.31-19.00.41:154][703]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.05.31-19.00.41:154][703]LogInit: FAudioDevice initialized with ID 8.
+[2024.05.31-19.00.41:154][703]LogAudio: Display: Audio Device (ID: 8) registered with world 'PersistentLevel'.
+[2024.05.31-19.00.41:154][703]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.05.31-19.00.41:156][703]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.05.31-19.00.41:170][703]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel up for play (max tick rate 0) at 2024.05.31-21.00.41
+[2024.05.31-19.00.41:170][703]LogWorld: Bringing up level for play took: 0.000371
+[2024.05.31-19.00.41:171][703]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.05.31-19.00.41:175][703]PIE: Server logged in
+[2024.05.31-19.00.41:175][703]PIE: Play in editor total start time 0,111 seconds.
+[2024.05.31-19.01.03:868][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.31-19.01.03:868][411]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.05.31-19.01.03:869][411]LogWorld: UWorld::CleanupWorld for PersistentLevel, bSessionEnded=true, bCleanupResources=true
+[2024.05.31-19.01.03:869][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-19.01.03:871][411]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.31-19.01.03:874][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.31-19.01.03:885][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.31-19.01.03:887][411]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.05.31-19.01.03:887][411]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.05.31-19.01.03:888][411]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.05.31-19.01.03:895][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.05.31-19.01.03:935][412]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.05.31-19.01.03:947][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.05.31-19.01.47:943][497]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.05.31-19.01.47:947][497]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.05.31-19.01.47:952][497]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.05.31-19.01.47:959][498]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.05.31-19.01.51:846][963]LogContentBrowser: Attempting asset rename: NewBlueprint -> WideWindow
+[2024.05.31-19.01.51:939][963]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.05.31-19.01.53:816][183]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets/WideWindow.WideWindow
+[2024.05.31-19.01.53:817][183]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-19.01.53:817][183]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.31-19.01.53:975][183]LogViewport: Scene viewport resized to 991x573, mode Windowed.
+[2024.05.31-19.01.55:871][346]LogViewport: Scene viewport resized to 988x588, mode Windowed.
+[2024.05.31-19.01.55:951][348]LogViewport: Scene viewport resized to 633x342, mode Windowed.
+[2024.05.31-19.01.55:971][349]LogViewport: Scene viewport resized to 405x183, mode Windowed.
+[2024.05.31-19.01.56:243][376]LogViewport: Scene viewport resized to 991x573, mode Windowed.
+[2024.05.31-19.01.56:444][392]LogViewport: Scene viewport resized to 988x588, mode Windowed.
+[2024.05.31-19.01.56:510][394]LogViewport: Scene viewport resized to 554x286, mode Windowed.
+[2024.05.31-19.01.56:537][395]LogViewport: Scene viewport resized to 991x573, mode Windowed.
+[2024.05.31-19.01.56:914][439]LogSlate: Window 'WideWindow' being destroyed
+[2024.05.31-19.02.05:783][474]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.02.05:783][474]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/EditorMeshes: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/EditorMeshes' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.02.05:783][474]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/EngineMeshes/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/EngineMeshes/BackgroundCube.uasset' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.02.08:431][787]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.02.08:431][787]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/BasicShapes: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/BasicShapes' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.02.08:431][787]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/EngineMeshes/Cube.uasset: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/EngineMeshes/Cube.uasset' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.02.08:431][787]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/EditorMeshes/EditorCube.uasset: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/EditorMeshes/EditorCube.uasset' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.02.08:991][850]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.31-19.02.28:235][111]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:235][111]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:243][112]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:243][112]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:243][112]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:251][113]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:251][113]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:251][113]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:260][114]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:260][114]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:260][114]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:268][115]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:268][115]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:268][115]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:277][116]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:277][116]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:277][116]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:285][117]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:285][117]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:285][117]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:293][118]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:293][118]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:293][118]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:301][119]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:302][119]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:302][119]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:310][120]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:310][120]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:310][120]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:318][121]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:318][121]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:318][121]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:327][122]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:327][122]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:327][122]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:335][123]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:335][123]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:335][123]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:343][124]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:343][124]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:343][124]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:351][125]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:351][125]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:351][125]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:359][126]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:359][126]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:359][126]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:368][127]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:368][127]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:368][127]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:376][128]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:377][128]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:377][128]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:384][129]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:384][129]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:384][129]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:393][130]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:393][130]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:393][130]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:401][131]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:401][131]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:401][131]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:410][132]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:410][132]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:410][132]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:418][133]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:418][133]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:418][133]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:427][134]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:427][134]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:427][134]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:435][135]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:435][135]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:435][135]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:443][136]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:443][136]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:443][136]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:451][137]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:452][137]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:452][137]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:459][138]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:459][138]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:459][138]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:468][139]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:468][139]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:468][139]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:476][140]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.28:476][140]LogPhysics: Warning: Scale for /Engine/Transient.World_8:PersistentLevel.WideWindow_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=100.000 Y=0.000 Z=1.000
+[2024.05.31-19.02.41:181][627]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-19.02.41:239][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/WideWindow" FILE="../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Assets/WideWindow.uasset" SILENT=true
+[2024.05.31-19.02.41:241][627]LogSavePackage: Moving output files for package: /Game/Assets/WideWindow
+[2024.05.31-19.02.41:241][627]LogSavePackage: Moving '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Saved/WideWindow1C9AA0A44AB5CF7F37589682F9B35F77.tmp' to '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Assets/WideWindow.uasset'
+[2024.05.31-19.02.41:382][627]LogFileHelpers: InternalPromptForCheckoutAndSave took 201 ms (total: 1.79 sec)
+[2024.05.31-19.02.41:383][627]AssetCheck: New page: Asset Save: WideWindow
+[2024.05.31-19.02.41:383][627]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/WideWindow.WideWindow
+[2024.05.31-19.02.41:511][642]BlueprintLog: New page: Compile WideWindow
+[2024.05.31-19.02.41:548][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.05.31-19.02.44:044][888]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Assets/WideWindow.WideWindow_C
+[2024.05.31-19.02.44:044][888]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Assets/WideWindow.WideWindow_C
+[2024.05.31-19.02.44:045][888]LogActorFactory: Actor Factory spawned Blueprint /Game/Assets/WideWindow.WideWindow as actor: WideWindow_C /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.WideWindow_C_0
+[2024.05.31-19.02.44:046][888]LogActorFactory: Actor Factory spawned Blueprint /Game/Assets/WideWindow.WideWindow as actor: WideWindow_C /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.WideWindow_C_0
+[2024.05.31-19.02.45:219][988]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Assets/WideWindow.WideWindow_C
+[2024.05.31-19.02.45:219][988]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Assets/WideWindow.WideWindow_C
+[2024.05.31-19.02.45:220][988]LogActorFactory: Actor Factory spawned Blueprint /Game/Assets/WideWindow.WideWindow as actor: WideWindow_C /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.WideWindow_C_1
+[2024.05.31-19.02.45:221][988]LogActorFactory: Actor Factory spawned Blueprint /Game/Assets/WideWindow.WideWindow as actor: WideWindow_C /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk:PersistentLevel.WideWindow_C_1
+[2024.05.31-19.02.52:916][880]BlueprintLog: New page: Compile WideWindow
+[2024.05.31-19.02.52:943][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.05.31-19.02.53:462][922]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-19.02.53:495][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/WideWindow" FILE="../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Assets/WideWindow.uasset" SILENT=true
+[2024.05.31-19.02.53:498][922]LogSavePackage: Moving output files for package: /Game/Assets/WideWindow
+[2024.05.31-19.02.53:498][922]LogSavePackage: Moving '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Saved/WideWindowD6FFC80040A0E8D4515C1999572294AF.tmp' to '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Assets/WideWindow.uasset'
+[2024.05.31-19.02.53:503][922]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 1.83 sec)
+[2024.05.31-19.02.53:504][922]AssetCheck: New page: Asset Save: WideWindow
+[2024.05.31-19.02.53:504][922]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/WideWindow.WideWindow
+[2024.05.31-19.03.15:775][503]BlueprintLog: New page: Compile WideWindow
+[2024.05.31-19.03.15:803][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.05.31-19.03.16:553][570]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-19.03.16:610][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/WideWindow" FILE="../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Assets/WideWindow.uasset" SILENT=true
+[2024.05.31-19.03.16:612][570]LogSavePackage: Moving output files for package: /Game/Assets/WideWindow
+[2024.05.31-19.03.16:613][570]LogSavePackage: Moving '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Saved/WideWindow7FDF024A4A2798D205A9F09584A8A450.tmp' to '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Assets/WideWindow.uasset'
+[2024.05.31-19.03.16:618][570]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 1.90 sec)
+[2024.05.31-19.03.16:619][570]AssetCheck: New page: Asset Save: WideWindow
+[2024.05.31-19.03.16:619][570]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/WideWindow.WideWindow
+[2024.05.31-19.03.34:607][558]BlueprintLog: New page: Compile WideWindow
+[2024.05.31-19.03.34:639][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.05.31-19.03.35:280][607]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-19.03.35:323][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/WideWindow" FILE="../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Assets/WideWindow.uasset" SILENT=true
+[2024.05.31-19.03.35:327][607]LogSavePackage: Moving output files for package: /Game/Assets/WideWindow
+[2024.05.31-19.03.35:327][607]LogSavePackage: Moving '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Saved/WideWindow008AE7A441519FE48896FC9C16ACDEDB.tmp' to '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Assets/WideWindow.uasset'
+[2024.05.31-19.03.35:333][607]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 1.95 sec)
+[2024.05.31-19.03.35:334][607]AssetCheck: New page: Asset Save: WideWindow
+[2024.05.31-19.03.35:334][607]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/WideWindow.WideWindow
+[2024.05.31-19.03.51:125][458]BlueprintLog: New page: Compile WideWindow
+[2024.05.31-19.03.51:159][458]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.05.31-19.03.51:687][499]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-19.03.51:743][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/WideWindow" FILE="../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Assets/WideWindow.uasset" SILENT=true
+[2024.05.31-19.03.51:746][499]LogSavePackage: Moving output files for package: /Game/Assets/WideWindow
+[2024.05.31-19.03.51:746][499]LogSavePackage: Moving '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Saved/WideWindow76EA4D234C8EF2511AB43FBEB950AC4D.tmp' to '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Assets/WideWindow.uasset'
+[2024.05.31-19.03.51:752][499]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 2.01 sec)
+[2024.05.31-19.03.51:754][499]AssetCheck: New page: Asset Save: WideWindow
+[2024.05.31-19.03.51:754][499]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/WideWindow.WideWindow
+[2024.05.31-19.03.52:794][599]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-19.03.52:852][599]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.05.31-19.03.52:880][599]LogSavePackage: Moving output files for package: /Game/Levels/JakubMatyaszczyk
+[2024.05.31-19.03.52:880][599]LogSavePackage: Moving '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Saved/JakubMatyaszczyk5687F7A64AC19203E55BDC9A99D8C675.tmp' to '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Levels/JakubMatyaszczyk.umap'
+[2024.05.31-19.03.52:885][599]LogFileHelpers: Saving map 'JakubMatyaszczyk' took 0.045
+[2024.05.31-19.03.52:891][599]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 2.11 sec)
+[2024.05.31-19.03.52:893][599]AssetCheck: New page: Asset Save: JakubMatyaszczyk
+[2024.05.31-19.03.52:893][599]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk
+[2024.05.31-19.10.02:930][878]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/VREditor/UI: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/VREditor/UI' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.10.02:930][878]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.10.02:930][878]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/EngineMaterials: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/EngineMaterials' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.10.02:930][878]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/BufferVisualization/WorldNormal.uasset: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/BufferVisualization/WorldNormal.uasset' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.10.05:430][177]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/TemplateResources: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/TemplateResources' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.10.05:430][177]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/EngineDebugMaterials/VertexColorViewMode_BlueOnly.uasset: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/EngineDebugMaterials/VertexColorViewMode_BlueOnly.uasset' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.10.09:529][641]BlueprintLog: New page: Compile WideWindow
+[2024.05.31-19.10.09:762][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.05.31-19.10.10:334][677]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-19.10.10:378][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/WideWindow" FILE="../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Assets/WideWindow.uasset" SILENT=true
+[2024.05.31-19.10.10:383][677]LogSavePackage: Moving output files for package: /Game/Assets/WideWindow
+[2024.05.31-19.10.10:383][677]LogSavePackage: Moving '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Saved/WideWindowD1BBED39424F611B4FCC9895234CACDE.tmp' to '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Assets/WideWindow.uasset'
+[2024.05.31-19.10.10:388][677]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 2.17 sec)
+[2024.05.31-19.10.10:390][677]AssetCheck: New page: Asset Save: WideWindow
+[2024.05.31-19.10.10:390][677]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/WideWindow.WideWindow
+[2024.05.31-19.10.16:155][312]Cmd: EDIT COPY
+[2024.05.31-19.10.16:405][342]Cmd: EDIT PASTE
+[2024.05.31-19.10.22:771][ 59]Cmd: EDIT COPY
+[2024.05.31-19.10.23:045][ 92]Cmd: EDIT PASTE
+[2024.05.31-19.10.29:479][766]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-19.10.29:549][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.05.31-19.10.29:586][766]LogSavePackage: Moving output files for package: /Game/Levels/JakubMatyaszczyk
+[2024.05.31-19.10.29:586][766]LogSavePackage: Moving '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Saved/JakubMatyaszczyk6A4EA86B4817A8DB784A9EBE98445AAC.tmp' to '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Levels/JakubMatyaszczyk.umap'
+[2024.05.31-19.10.29:592][766]LogFileHelpers: Saving map 'JakubMatyaszczyk' took 0.068
+[2024.05.31-19.10.29:597][766]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 2.29 sec)
+[2024.05.31-19.10.29:599][766]AssetCheck: New page: Asset Save: JakubMatyaszczyk
+[2024.05.31-19.10.29:599][766]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk
+[2024.05.31-19.10.51:694][382]Cmd: EDIT COPY
+[2024.05.31-19.10.51:943][411]Cmd: EDIT PASTE
+[2024.05.31-19.11.00:396][351]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.31-19.11.00:443][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.05.31-19.11.00:482][351]LogSavePackage: Moving output files for package: /Game/Levels/JakubMatyaszczyk
+[2024.05.31-19.11.00:482][351]LogSavePackage: Moving '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Saved/JakubMatyaszczykD8CBED3D403280FB35B57ABCAC2A3539.tmp' to '../../../../../../Users/jakub/Documents/Unreal Projects/WspolnyProjekt2/Content/Levels/JakubMatyaszczyk.umap'
+[2024.05.31-19.11.00:487][351]LogFileHelpers: Saving map 'JakubMatyaszczyk' took 0.059
+[2024.05.31-19.11.00:493][351]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 2.38 sec)
+[2024.05.31-19.11.00:494][351]AssetCheck: New page: Asset Save: JakubMatyaszczyk
+[2024.05.31-19.11.00:494][351]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk
+[2024.05.31-19.11.05:120][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:120][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:120][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:120][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:120][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:120][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:120][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:120][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:120][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:120][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.05:121][800]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/jakub/Documents/Unreal Projects/WspolnyProjekt2'
+[2024.05.31-19.11.28:445][800]LogSlate: Window 'Submit Files' being destroyed
+[2024.05.31-19.11.28:747][800]LogSourceControl: commit successful: [main e5e77cc] Added second Boundary Building and WideWindow Actor
+[2024.05.31-19.11.28:860][800]SourceControl: [main e5e77cc] Added second Boundary Building and WideWindow Actor
+[2024.05.31-19.11.28:860][800]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2024.05.31-19.11.28:860][800]SourceControl:  create mode 100644 Content/Assets/WideWindow.uasset
+[2024.05.31-19.11.28:877][800]SourceControl: Commited [main e5e77cc] Added second Boundary Building and WideWindow Actor.
+[2024.05.31-19.11.28:900][800]LogAutomationController: Ignoring very large delta of 23.78 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
