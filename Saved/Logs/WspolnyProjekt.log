@@ -1148,3 +1148,41 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.10-16.54.45:975][515]Cmd: MAP CHECKDEP NOCLEARLOG
 [2024.06.10-16.54.45:975][515]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.2ms to complete.
 [2024.06.10-16.54.51:387][103]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.06.10-16.55.50:505][438]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.06.10-16.55.52:023][492]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.06.10-16.55.52:029][492]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.06.10-16.55.52:034][492]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.06.10-16.55.52:041][493]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.06.10-16.55.58:602][254]LogContentBrowser: Attempting asset rename: NewBlueprint -> CollectibleBP
+[2024.06.10-16.55.58:708][254]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.06.10-16.55.59:532][351]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP-s/CollectibleBP.CollectibleBP
+[2024.06.10-16.55.59:534][351]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.10-16.55.59:534][351]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.10-16.55.59:547][351]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.06.10-16.56.00:280][351]LogViewport: Scene viewport resized to 996x501, mode Windowed.
+[2024.06.10-16.56.13:361][959]LogViewport: Scene viewport resized to 1269x685, mode Windowed.
+[2024.06.10-16.56.24:469][986]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.06.10-16.56.38:288][172]LogDerivedDataCache: C:/Users/przem/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:17.182 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 9200 files in 10777 folders with total size 2676 MiB.
+[2024.06.10-16.56.40:826][398]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.06.10-16.58.11:786][ 44]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2024.06.10-16.58.11:810][ 44]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.06.10-16.58.11:810][ 44]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.10-16.58.11:810][ 44]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.10-16.58.11:905][ 44]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.10-16.58.12:071][ 45]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.10-16.58.12:128][ 46]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.10-16.59.27:334][761]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.06.10-17.00.45:867][317]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP-s/DoorOpenedByCollecting.DoorOpenedByCollecting
+[2024.06.10-17.00.45:867][317]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.10-17.00.45:867][317]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.10-17.01.17:097][173]BlueprintLog: New page: Compile CollectibleBP
+[2024.06.10-17.01.17:130][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.06.10-17.01.51:935][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.06.10-17.01.52:036][860]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.10-17.01.52:082][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP-s/CollectibleBP" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/BP-s/CollectibleBP.uasset" SILENT=true
+[2024.06.10-17.01.52:090][860]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.007937 seconds
+[2024.06.10-17.01.52:096][860]LogSavePackage: Moving output files for package: /Game/BP-s/CollectibleBP
+[2024.06.10-17.01.52:096][860]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/CollectibleBPB32D8AEC48ABD596E90046BB976BA22B.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/BP-s/CollectibleBP.uasset'
+[2024.06.10-17.01.52:243][860]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms
+[2024.06.10-17.01.52:244][860]AssetCheck: New page: Asset Save: CollectibleBP
+[2024.06.10-17.01.52:244][860]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP-s/CollectibleBP.CollectibleBP
