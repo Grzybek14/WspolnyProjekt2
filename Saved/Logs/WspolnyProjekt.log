@@ -1204,3 +1204,117 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.10-17.06.48:785][594]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 409 ms)
 [2024.06.10-17.06.48:787][594]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
 [2024.06.10-17.06.48:787][594]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.06.10-17.07.40:270][893]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.06.10-17.07.40:271][893]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.10-17.07.41:886][ 25]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.06.10-17.07.41:886][ 25]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.06.10-17.07.41:886][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.10-17.07.43:036][138]LogSlate: Window 'CollectibleBP' being destroyed
+[2024.06.10-17.07.43:043][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.06.10-17.07.43:043][138]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.06.10-17.07.43:043][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.10-17.26.18:316][282]LogViewport: Scene viewport resized to 978x580, mode Windowed.
+[2024.06.10-17.26.26:833][ 48]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.10-17.26.26:891][ 49]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.10-17.26.56:133][505]LogAssetTools: Warning: Failed to import 'C:\Users\przem\Desktop\untitled.x3d'. Unknown extension 'x3d'.
+[2024.06.10-17.27.28:304][798]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Głośniki (NVIDIA High Definition Audio), InstanceID=1
+[2024.06.10-17.27.28:582][798]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=23836
+[2024.06.10-17.27.28:917][799]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{8d27a709-0da4-43e2-ad2e-2b7dbc630712}, Name=Głośniki (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=20.86
+[2024.06.10-17.27.28:917][799]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.06.10-17.27.28:918][799]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.06.10-17.30.18:745][528]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\przem\Desktop\untitled.fbx)
+[2024.06.10-17.30.18:790][528]LogFbx: Loading FBX Scene from C:\Users\przem\Desktop\untitled.fbx
+[2024.06.10-17.30.18:800][528]LogFbx: FBX Scene Loaded Succesfully
+[2024.06.10-17.30.20:746][528]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.06.10-17.30.20:902][528]LogFbx: Display: Triangulating static mesh Cylinder
+[2024.06.10-17.30.20:923][528]LogStaticMesh: Display: Building static mesh untitled...
+[2024.06.10-17.30.20:933][528]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/untitled.untitled
+[2024.06.10-17.30.20:965][528]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: ================================================
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Total job queries 8, among them cache hits 0 (0.00%)
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: RAM used: 18.13 KiB of 819.20 MiB budget. Usage: 0.00%
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Time job spent in pending queue: average 0.00 s, longest 0.00 s
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Job execution time: average 0.55 s, max 0.55 s
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Job life time (pending + execution): average 0.55 s, max 0.55
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Shader code size: average 29.711 KiB, min 29.711 KiB, max 29.711 KiB
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.55 s
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Average processing rate: 1.83 jobs/sec
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Total thread time: 0.108 s
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Total thread preprocess time: 0.022 s
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Percentage time preprocessing: 20.58%
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Effective parallelization: 0.20 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.11 sec, max 0.11 sec, min 0.11 sec)
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.11 sec, max 0.11 sec, min 0.11 sec)
+[2024.06.10-17.30.21:954][584]LogShaderCompilers: Display: ================================================
+[2024.06.10-17.30.22:253][605]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.10-17.30.24:776][870]LogSlate: Window 'Message Log' being destroyed
+[2024.06.10-17.30.24:780][870]LogSlate: Window 'Message Log' being destroyed
+[2024.06.10-17.30.30:657][560]LogViewport: Scene viewport resized to 1494x892, mode Windowed.
+[2024.06.10-17.31.14:024][297]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.10-17.31.15:010][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Water" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Water.uasset" SILENT=true
+[2024.06.10-17.31.15:012][297]LogSavePackage: Moving output files for package: /Game/Colors/Water
+[2024.06.10-17.31.15:012][297]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Water4386530C4D79437B4E7B729980E5ED9F.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Water.uasset'
+[2024.06.10-17.31.15:036][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Stone" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Stone.uasset" SILENT=true
+[2024.06.10-17.31.15:037][297]LogSavePackage: Moving output files for package: /Game/Colors/Stone
+[2024.06.10-17.31.15:037][297]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Stone15E829404A59E7BB0D9EF4A6CE807731.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Stone.uasset'
+[2024.06.10-17.31.15:060][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Wood" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Wood.uasset" SILENT=true
+[2024.06.10-17.31.15:061][297]LogSavePackage: Moving output files for package: /Game/Colors/Wood
+[2024.06.10-17.31.15:061][297]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/WoodB99B8EE944C182C0266F43A73AE45772.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Wood.uasset'
+[2024.06.10-17.31.15:242][297]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.21 sec (total: 1.62 sec)
+[2024.06.10-17.31.15:357][297]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.06.10-17.31.15:381][297]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.06.10-17.31.15:393][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.06.10-17.31.15:407][297]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.10-17.31.15:407][297]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/Water.Water
+[2024.06.10-17.31.15:407][297]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/Stone.Stone
+[2024.06.10-17.31.15:407][297]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/Wood.Wood
+[2024.06.10-17.31.36:947][ 45]LogContentBrowser: Attempting asset rename: untitled -> untitled
+[2024.06.10-17.31.40:578][333]LogContentBrowser: Attempting asset rename: untitled -> well
+[2024.06.10-17.31.41:111][333]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.10-17.31.41:169][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/well" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/well.uasset" SILENT=true
+[2024.06.10-17.31.41:175][333]LogSavePackage: Moving output files for package: /Game/Assets/well
+[2024.06.10-17.31.41:175][333]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/well5ACA981148ECF5D5AF439A88E7A81BAC.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/well.uasset'
+[2024.06.10-17.31.41:301][333]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 1.81 sec)
+[2024.06.10-17.31.41:409][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.06.10-17.31.41:423][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.06.10-17.31.41:436][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.06.10-17.31.41:437][333]AssetCheck: New page: Asset Save: well
+[2024.06.10-17.31.41:437][333]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/well.well
+[2024.06.10-17.31.42:854][449]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/well.well
+[2024.06.10-17.31.42:855][449]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/well.well
+[2024.06.10-17.31.42:857][449]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/well.well as actor: StaticMeshActor /Game/Levels/PrzemyslawSajan.PrzemyslawSajan:PersistentLevel.StaticMeshActor_0
+[2024.06.10-17.31.43:448][515]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/well.well
+[2024.06.10-17.31.43:448][515]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/well.well
+[2024.06.10-17.31.43:449][515]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/well.well as actor: StaticMeshActor /Game/Levels/PrzemyslawSajan.PrzemyslawSajan:PersistentLevel.StaticMeshActor_1
+[2024.06.10-17.32.16:036][951]Cmd: DELETE
+[2024.06.10-17.32.16:037][951]Cmd: ACTOR DELETE
+[2024.06.10-17.32.16:042][951]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.06.10-17.32.16:058][951]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.06.10-17.32.16:059][951]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2024.06.10-17.32.23:468][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.06.10-17.32.23:471][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PrzemyslawSajan" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Autosaves/Game/Levels/PrzemyslawSajan_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.06.10-17.32.23:473][708]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/PrzemyslawSajan_Auto1
+[2024.06.10-17.32.23:473][708]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/PrzemyslawSajan_Auto1ABE842264654ED0E924E38805CF76518.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Autosaves/Game/Levels/PrzemyslawSajan_Auto1.umap'
+[2024.06.10-17.32.23:473][708]LogAssetRegistry: Warning: ScanPathsSynchronous: D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Autosaves/Game/Levels/PrzemyslawSajan_Auto1.umap is in the /Temp path, will not scan.
+[2024.06.10-17.32.23:473][708]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Levels/PrzemyslawSajan_Auto1 is in the /Temp path, will not scan.
+[2024.06.10-17.32.23:473][708]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Levels/PrzemyslawSajan_Auto1 is in the /Temp path, will not scan.
+[2024.06.10-17.32.23:475][708]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/PersistentLevel' took 0.020
+[2024.06.10-17.32.23:475][708]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.020
+[2024.06.10-17.32.24:602][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.06.10-17.32.24:696][824]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.10-17.32.24:745][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PrzemyslawSajan" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/PrzemyslawSajan.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.10-17.32.24:757][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.06.10-17.32.24:760][824]LogSavePackage: Moving output files for package: /Game/Levels/PrzemyslawSajan
+[2024.06.10-17.32.24:760][824]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/PrzemyslawSajan7366DA0449089514A02B1FB967984A78.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/PrzemyslawSajan.umap'
+[2024.06.10-17.32.24:766][824]LogFileHelpers: Saving map 'PrzemyslawSajan' took 0.024
+[2024.06.10-17.32.24:772][824]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 1.89 sec)
+[2024.06.10-17.32.24:773][824]AssetCheck: New page: Asset Save: PrzemyslawSajan
+[2024.06.10-17.32.24:773][824]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/PrzemyslawSajan.PrzemyslawSajan
