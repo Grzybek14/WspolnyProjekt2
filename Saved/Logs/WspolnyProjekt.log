@@ -1186,3 +1186,21 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.10-17.01.52:243][860]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms
 [2024.06.10-17.01.52:244][860]AssetCheck: New page: Asset Save: CollectibleBP
 [2024.06.10-17.01.52:244][860]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP-s/CollectibleBP.CollectibleBP
+[2024.06.10-17.04.35:359][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.10-17.04.35:391][ 41]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.10-17.04.35:444][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" SILENT=true
+[2024.06.10-17.04.35:455][ 41]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.06.10-17.04.35:455][ 41]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/BP_ThirdPersonCharacter31EC43D14B42D8032ABCFCBDA3F282EA.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.06.10-17.04.35:463][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 308 ms)
+[2024.06.10-17.04.35:463][ 41]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.06.10-17.04.35:463][ 41]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.06.10-17.05.04:235][187]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.06.10-17.05.04:301][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.06.10-17.06.48:595][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.06.10-17.06.48:684][594]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.10-17.06.48:767][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" SILENT=true
+[2024.06.10-17.06.48:779][594]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.06.10-17.06.48:779][594]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/BP_ThirdPersonCharacterA4A647694B567120CC1FCAB92A869CA5.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.06.10-17.06.48:785][594]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 409 ms)
+[2024.06.10-17.06.48:787][594]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.06.10-17.06.48:787][594]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
