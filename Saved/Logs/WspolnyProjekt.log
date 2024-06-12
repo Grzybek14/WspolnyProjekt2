@@ -1904,3 +1904,455 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.12-10.36.34:560][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.06.12-10.36.55:599][839]Cmd: SELECT NONE
 [2024.06.12-10.39.19:808][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.06.12-10.46.05:900][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.06.12-10.46.05:902][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PrzemyslawSajan" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Autosaves/Game/Levels/PrzemyslawSajan_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.06.12-10.46.05:906][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/PrzemyslawSajan_Auto2
+[2024.06.12-10.46.05:906][201]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/PrzemyslawSajan_Auto26970413E452E2033DB51B98ABC696515.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Autosaves/Game/Levels/PrzemyslawSajan_Auto2.umap'
+[2024.06.12-10.46.05:906][201]LogAssetRegistry: Warning: ScanPathsSynchronous: D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Autosaves/Game/Levels/PrzemyslawSajan_Auto2.umap is in the /Temp path, will not scan.
+[2024.06.12-10.46.05:906][201]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Levels/PrzemyslawSajan_Auto2 is in the /Temp path, will not scan.
+[2024.06.12-10.46.05:906][201]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Levels/PrzemyslawSajan_Auto2 is in the /Temp path, will not scan.
+[2024.06.12-10.46.05:907][201]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/PersistentLevel' took 0.018
+[2024.06.12-10.46.05:907][201]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.018
+[2024.06.12-11.15.27:368][485]LogDerivedDataCache: C:/Users/przem/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:18.126 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 9526 files in 11212 folders with total size 2689 MiB.
+[2024.06.12-11.20.13:592][344]LogViewport: Scene viewport resized to 1057x588, mode Windowed.
+[2024.06.12-11.20.19:049][834]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-11.20.19:114][835]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-11.20.19:142][836]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-11.20.19:203][839]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-11.20.19:242][841]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-11.20.19:288][844]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-11.20.19:305][845]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-11.20.22:606][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\przem\Desktop\slide.fbx)
+[2024.06.12-11.20.22:651][180]LogFbx: Loading FBX Scene from C:\Users\przem\Desktop\slide.fbx
+[2024.06.12-11.20.22:662][180]LogFbx: FBX Scene Loaded Succesfully
+[2024.06.12-11.20.24:008][180]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.06.12-11.20.24:104][180]LogFbx: Display: Triangulating static mesh Cube
+[2024.06.12-11.20.24:206][180]LogStaticMesh: Display: Building static mesh slide...
+[2024.06.12-11.20.24:243][180]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/slide.slide
+[2024.06.12-11.20.24:254][180]LogStaticMesh: Warning: slide has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2024.06.12-11.20.24:254][180]LogStaticMesh: Warning: slide has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.06.12-11.20.24:291][180]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.06.12-11.20.24:292][180]FBXImport: Warning: slide has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2024.06.12-11.20.24:292][180]FBXImport: Warning: slide has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.06.12-11.20.25:285][180]LogMeshUtilities: Finished distance field build in 1.0s - 126x126x126 sparse distance field, 1.3Mb total, 0.1Mb always loaded, 34% occupied, 1949 triangles, slide
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: ================================================
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Total job queries 348, among them cache hits 230 (66.09%)
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Tracking 118 distinct input hashes that result in 60 distinct outputs (50.85%)
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: RAM used: 2.47 MiB of 819.20 MiB budget. Usage: 0.30%
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Shaders Compiled: 112
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Jobs assigned 112, completed 112 (100%)
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Average time worker was idle: 35.71 s
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.43 s
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Job execution time: average 0.35 s, max 0.86 s
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Job life time (pending + execution): average 0.42 s, max 0.94
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Shader code size: average 35.981 KiB, min 29.613 KiB, max 60.73 KiB
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.54 s
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Jobs were issued in 112 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Average processing rate: 10.63 jobs/sec
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Total thread time: 26.532 s
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Total thread preprocess time: 3.221 s
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Percentage time preprocessing: 12.14%
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Effective parallelization: 2.52 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.30 sec, max 0.32 sec, min 0.29 sec)
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 0.30 sec, max 0.31 sec, min 0.29 sec)
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 0.29 sec, max 0.30 sec, min 0.28 sec)
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.29% of total time (compiled   27 times, average 0.27 sec, max 0.33 sec, min 0.19 sec)
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.70% of total time (compiled   27 times, average 0.26 sec, max 0.30 sec, min 0.22 sec)
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.32% of total time (compiled   17 times, average 0.25 sec, max 0.29 sec, min 0.22 sec)
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.64% of total time (compiled   17 times, average 0.12 sec, max 0.15 sec, min 0.10 sec)
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 2.30% of total time (compiled    2 times, average 0.30 sec, max 0.32 sec, min 0.29 sec)
+[2024.06.12-11.20.25:536][185]LogShaderCompilers: Display: ================================================
+[2024.06.12-11.20.26:393][240]LogSlate: Window 'Message Log' being destroyed
+[2024.06.12-11.20.26:410][240]LogSlate: Window 'Message Log' being destroyed
+[2024.06.12-11.20.26:522][253]LogMeshUtilities: Finished distance field build in 1.2s - 126x126x126 sparse distance field, 1.3Mb total, 0.1Mb always loaded, 34% occupied, 1949 triangles, slide
+[2024.06.12-11.20.28:036][432]LogViewport: Scene viewport resized to 1604x892, mode Windowed.
+[2024.06.12-11.20.37:126][247]LogContentBrowser: Attempting asset rename: Slide1 -> Slide1
+[2024.06.12-11.20.38:012][313]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/slide.slide
+[2024.06.12-11.20.38:012][313]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/slide.slide
+[2024.06.12-11.20.38:013][313]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/slide.slide as actor: StaticMeshActor /Game/Levels/PrzemyslawSajan.PrzemyslawSajan:PersistentLevel.StaticMeshActor_11
+[2024.06.12-11.20.38:618][371]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/slide.slide
+[2024.06.12-11.20.38:618][371]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/slide.slide
+[2024.06.12-11.20.38:619][371]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/slide.slide as actor: StaticMeshActor /Game/Levels/PrzemyslawSajan.PrzemyslawSajan:PersistentLevel.StaticMeshActor_12
+[2024.06.12-11.20.45:996][118]Cmd: TRANSACTION UNDO
+[2024.06.12-11.20.45:996][118]LogEditorTransaction: Undo Create Actors
+[2024.06.12-11.21.10:057][353]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/slide.slide
+[2024.06.12-11.21.10:134][353]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-11.21.10:134][353]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.12-11.21.10:518][353]LogViewport: Scene viewport resized to 1405x894, mode Windowed.
+[2024.06.12-11.21.12:985][496]LogViewport: Scene viewport resized to 905x395, mode Windowed.
+[2024.06.12-11.21.13:837][496]LogViewport: Scene viewport resized to 1334x888, mode Windowed.
+[2024.06.12-11.21.21:900][ 16]LogSlate: Window 'slide' being destroyed
+[2024.06.12-11.21.21:920][ 16]LogSlate: Window 'slide' being destroyed
+[2024.06.12-11.21.21:988][ 16]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.06.12-11.21.21:988][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-11.23.09:137][533]Cmd: DELETE
+[2024.06.12-11.23.09:137][533]Cmd: ACTOR DELETE
+[2024.06.12-11.23.09:157][533]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.06.12-11.23.09:172][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.06.12-11.23.09:176][533]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2024.06.12-11.23.15:652][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.06.12-11.23.16:640][944]LogSlate: Window 'Delete Assets' being destroyed
+[2024.06.12-11.23.16:681][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.06.12-11.23.16:692][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.06.12-11.23.16:703][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.06.12-11.23.17:703][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.06.12-11.23.18:637][ 20]LogSlate: Window 'Delete Assets' being destroyed
+[2024.06.12-11.23.18:656][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.06.12-11.23.18:669][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.06.12-11.23.18:680][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.06.12-11.23.44:122][157]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.06.12-11.23.44:124][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PrzemyslawSajan" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Autosaves/Game/Levels/PrzemyslawSajan_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.06.12-11.23.44:127][157]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/PrzemyslawSajan_Auto3
+[2024.06.12-11.23.44:127][157]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/PrzemyslawSajan_Auto3AD1A73FE48CAC4BACAE1B1984158C088.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Autosaves/Game/Levels/PrzemyslawSajan_Auto3.umap'
+[2024.06.12-11.23.44:127][157]LogAssetRegistry: Warning: ScanPathsSynchronous: D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Autosaves/Game/Levels/PrzemyslawSajan_Auto3.umap is in the /Temp path, will not scan.
+[2024.06.12-11.23.44:127][157]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Levels/PrzemyslawSajan_Auto3 is in the /Temp path, will not scan.
+[2024.06.12-11.23.44:127][157]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Levels/PrzemyslawSajan_Auto3 is in the /Temp path, will not scan.
+[2024.06.12-11.23.44:127][157]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/PersistentLevel' took 0.017
+[2024.06.12-11.23.44:127][157]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.017
+[2024.06.12-11.24.31:056][528]LogViewport: Scene viewport resized to 1057x588, mode Windowed.
+[2024.06.12-11.24.46:000][957]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\przem\Desktop\slide.fbx)
+[2024.06.12-11.24.46:008][957]LogFbx: Loading FBX Scene from C:\Users\przem\Desktop\slide.fbx
+[2024.06.12-11.24.46:014][957]LogFbx: FBX Scene Loaded Succesfully
+[2024.06.12-11.24.47:053][957]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.06.12-11.24.47:194][957]LogFbx: Display: Triangulating static mesh Cube
+[2024.06.12-11.24.47:335][957]LogStaticMesh: Display: Building static mesh slide...
+[2024.06.12-11.24.47:391][957]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/slide.slide
+[2024.06.12-11.24.47:402][957]LogStaticMesh: Warning: slide has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2024.06.12-11.24.47:402][957]LogStaticMesh: Warning: slide has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.06.12-11.24.47:433][957]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.06.12-11.24.47:433][957]FBXImport: Warning: slide has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2024.06.12-11.24.47:433][957]FBXImport: Warning: slide has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.06.12-11.24.48:690][957]LogMeshUtilities: Finished distance field build in 1.3s - 126x126x126 sparse distance field, 1.3Mb total, 0.1Mb always loaded, 34% occupied, 1949 triangles, slide
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: ================================================
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Total job queries 356, among them cache hits 236 (66.29%)
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Tracking 120 distinct input hashes that result in 60 distinct outputs (50.00%)
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: RAM used: 2.50 MiB of 819.20 MiB budget. Usage: 0.31%
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Shaders Compiled: 112
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Jobs assigned 112, completed 112 (100%)
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Average time worker was idle: 35.71 s
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.43 s
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Job execution time: average 0.35 s, max 0.86 s
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Job life time (pending + execution): average 0.42 s, max 0.94
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Shader code size: average 35.981 KiB, min 29.613 KiB, max 60.73 KiB
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.54 s
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Jobs were issued in 112 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Average processing rate: 10.63 jobs/sec
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Total thread time: 26.532 s
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Total thread preprocess time: 3.221 s
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Percentage time preprocessing: 12.14%
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Effective parallelization: 2.52 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.30 sec, max 0.32 sec, min 0.29 sec)
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 0.30 sec, max 0.31 sec, min 0.29 sec)
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 0.29 sec, max 0.30 sec, min 0.28 sec)
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.29% of total time (compiled   27 times, average 0.27 sec, max 0.33 sec, min 0.19 sec)
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.70% of total time (compiled   27 times, average 0.26 sec, max 0.30 sec, min 0.22 sec)
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.32% of total time (compiled   17 times, average 0.25 sec, max 0.29 sec, min 0.22 sec)
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.64% of total time (compiled   17 times, average 0.12 sec, max 0.15 sec, min 0.10 sec)
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 2.30% of total time (compiled    2 times, average 0.30 sec, max 0.32 sec, min 0.29 sec)
+[2024.06.12-11.24.48:706][957]LogShaderCompilers: Display: ================================================
+[2024.06.12-11.24.48:741][958]LogViewport: Scene viewport resized to 1604x892, mode Windowed.
+[2024.06.12-11.24.49:869][ 22]LogSlate: Window 'Message Log' being destroyed
+[2024.06.12-11.24.49:885][ 22]LogSlate: Window 'Message Log' being destroyed
+[2024.06.12-11.24.50:150][ 49]LogMeshUtilities: Finished distance field build in 1.4s - 126x126x126 sparse distance field, 1.3Mb total, 0.1Mb always loaded, 34% occupied, 1949 triangles, slide
+[2024.06.12-11.24.59:592][  2]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/slide.slide
+[2024.06.12-11.24.59:592][  2]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/slide.slide
+[2024.06.12-11.24.59:592][  2]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/slide.slide as actor: StaticMeshActor /Game/Levels/PrzemyslawSajan.PrzemyslawSajan:PersistentLevel.StaticMeshActor_13
+[2024.06.12-11.25.00:196][ 56]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/slide.slide
+[2024.06.12-11.25.00:197][ 56]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/slide.slide
+[2024.06.12-11.25.00:198][ 56]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/slide.slide as actor: StaticMeshActor /Game/Levels/PrzemyslawSajan.PrzemyslawSajan:PersistentLevel.StaticMeshActor_14
+[2024.06.12-11.25.51:511][466]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-11.25.51:672][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Slide1" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Slide1.uasset" SILENT=true
+[2024.06.12-11.25.51:673][466]LogSavePackage: Moving output files for package: /Game/Colors/Slide1
+[2024.06.12-11.25.51:673][466]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Slide18DD0250048596C130EB4A085C521BE01.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Slide1.uasset'
+[2024.06.12-11.25.51:694][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/SlideMetal" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/SlideMetal.uasset" SILENT=true
+[2024.06.12-11.25.51:695][466]LogSavePackage: Moving output files for package: /Game/Colors/SlideMetal
+[2024.06.12-11.25.51:695][466]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/SlideMetal1D777C614FE8E75ABE229C9EB837A7FF.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/SlideMetal.uasset'
+[2024.06.12-11.25.51:853][466]LogFileHelpers: InternalPromptForCheckoutAndSave took 341 ms (total: 2.75 sec)
+[2024.06.12-11.25.51:986][466]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.06.12-11.25.52:001][466]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.06.12-11.25.52:012][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.06.12-11.25.52:026][466]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.12-11.25.52:026][466]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/Slide1.Slide1
+[2024.06.12-11.25.52:026][466]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/SlideMetal.SlideMetal
+[2024.06.12-11.25.58:103][926]LogContentBrowser: Attempting asset rename: Slide1 -> Slide
+[2024.06.12-11.25.58:735][926]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-11.25.58:782][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Slide" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Slide.uasset" SILENT=true
+[2024.06.12-11.25.58:783][926]LogSavePackage: Moving output files for package: /Game/Colors/Slide
+[2024.06.12-11.25.58:783][926]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Slide535D19544814AF6122FC12ACD55304C4.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Slide.uasset'
+[2024.06.12-11.25.58:935][926]LogFileHelpers: InternalPromptForCheckoutAndSave took 200 ms (total: 2.95 sec)
+[2024.06.12-11.25.59:160][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.06.12-11.25.59:174][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.06.12-11.25.59:186][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.06.12-11.25.59:333][926]SourceControl: rm 'Content/Colors/Slide1.uasset'
+[2024.06.12-11.25.59:337][926]AssetCheck: New page: Asset Save: Slide
+[2024.06.12-11.25.59:337][926]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/Slide.Slide
+[2024.06.12-11.26.02:720][167]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Colors/Slide.Slide
+[2024.06.12-11.26.02:725][167]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-11.26.02:725][167]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.12-11.26.02:938][167]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.26.02:938][167]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.02:938][167]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.26.02:946][167]LogViewport: Scene viewport resized to 357x441, mode Windowed.
+[2024.06.12-11.26.03:062][169]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.06.12-11.26.03:062][169]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.26.03:062][169]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.26.03:062][169]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.03:062][169]MaterialEditorStats: Shader Count: 4
+[2024.06.12-11.26.06:098][351]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.26.06:098][351]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.06:098][351]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.26.06:138][353]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.06.12-11.26.06:138][353]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.26.06:138][353]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.26.06:138][353]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.06:140][353]MaterialEditorStats: Shader Count: 4
+[2024.06.12-11.26.06:663][381]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.26.06:663][381]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.06:663][381]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.26.06:705][383]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.06.12-11.26.06:706][383]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.26.06:706][383]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.26.06:706][383]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.06:706][383]MaterialEditorStats: Shader Count: 4
+[2024.06.12-11.26.12:007][691]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.26.12:007][691]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.12:007][691]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.26.12:058][693]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.06.12-11.26.12:058][693]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.26.12:058][693]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.26.12:058][693]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.12:058][693]MaterialEditorStats: Shader Count: 2
+[2024.06.12-11.26.14:368][825]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.26.14:368][825]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.14:368][825]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.26.15:159][865]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.26.15:159][865]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.26.15:159][865]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.15:159][865]MaterialEditorStats: Shader Count: 3
+[2024.06.12-11.26.15:251][870]MaterialEditorStats: Base pass shader: 192 instructions
+[2024.06.12-11.26.15:251][870]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.26.15:251][870]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.26.15:251][870]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.15:251][870]MaterialEditorStats: Shader Count: 4
+[2024.06.12-11.26.17:898][ 22]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.26.17:898][ 22]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.17:898][ 22]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.26.18:449][ 52]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.06.12-11.26.18:449][ 52]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.26.18:449][ 52]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.18:449][ 52]MaterialEditorStats: Shader Count: 3
+[2024.06.12-11.26.18:538][ 57]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.06.12-11.26.18:538][ 57]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.26.18:538][ 57]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.26.18:538][ 57]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.18:540][ 57]MaterialEditorStats: Shader Count: 4
+[2024.06.12-11.26.24:446][400]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.26.24:446][400]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.24:446][400]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.26.25:049][433]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.06.12-11.26.25:049][433]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.26.25:049][433]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.25:049][433]MaterialEditorStats: Shader Count: 3
+[2024.06.12-11.26.25:155][439]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.06.12-11.26.25:155][439]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.26.25:155][439]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.26.25:155][439]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.25:155][439]MaterialEditorStats: Shader Count: 4
+[2024.06.12-11.26.28:022][605]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.26.28:022][605]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.28:022][605]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.26.28:573][637]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.26.28:573][637]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.26.28:573][637]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.28:573][637]MaterialEditorStats: Shader Count: 3
+[2024.06.12-11.26.28:662][642]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.06.12-11.26.28:662][642]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.26.28:662][642]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.26.28:662][642]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.26.28:662][642]MaterialEditorStats: Shader Count: 4
+[2024.06.12-11.26.31:789][834]LogMaterialEditor: Applying material Slide
+[2024.06.12-11.26.31:938][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.06.12-11.26.32:414][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.06.12-11.27.21:789][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.06.12-11.27.22:022][958]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-11.27.22:066][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PrzemyslawSajan" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/PrzemyslawSajan.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.12-11.27.22:080][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.06.12-11.27.22:088][958]LogSavePackage: Moving output files for package: /Game/Levels/PrzemyslawSajan
+[2024.06.12-11.27.22:088][958]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/PrzemyslawSajanB447A04149652399E2AE4DB2C1DA43EA.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/PrzemyslawSajan.umap'
+[2024.06.12-11.27.22:103][958]LogFileHelpers: Saving map 'PrzemyslawSajan' took 0.038
+[2024.06.12-11.27.22:117][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/slide" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/slide.uasset" SILENT=true
+[2024.06.12-11.27.22:126][958]LogSavePackage: Moving output files for package: /Game/Assets/slide
+[2024.06.12-11.27.22:126][958]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/slide9F3F1DCD4406C1D7C061E988C5995430.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/slide.uasset'
+[2024.06.12-11.27.23:445][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Slide" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Slide.uasset" SILENT=true
+[2024.06.12-11.27.23:446][958]LogSavePackage: Moving output files for package: /Game/Colors/Slide
+[2024.06.12-11.27.23:447][958]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Slide85A111504FC550267D3814927D109039.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Slide.uasset'
+[2024.06.12-11.27.23:628][958]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.60 sec (total: 4.56 sec)
+[2024.06.12-11.27.23:629][958]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.12-11.27.23:629][958]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/PrzemyslawSajan.PrzemyslawSajan
+[2024.06.12-11.27.23:629][958]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/slide.slide
+[2024.06.12-11.27.23:629][958]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/Slide.Slide
+[2024.06.12-11.27.23:630][958]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.06.12-11.27.23:630][958]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.27.23:630][958]MaterialEditorStats: MaxSampler: 241 instructions
+[2024.06.12-11.27.23:630][958]MaterialEditorStats: Texture samplers: 3/16
+[2024.06.12-11.27.23:630][958]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.27.23:630][958]MaterialEditorStats: Shader Count: 16
+[2024.06.12-11.27.26:579][126]LogSlate: Window 'Slide' being destroyed
+[2024.06.12-11.27.26:584][126]LogSlate: Window 'Slide' being destroyed
+[2024.06.12-11.27.26:629][126]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.06.12-11.27.26:629][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-11.27.31:416][559]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Colors/SlideMetal.SlideMetal
+[2024.06.12-11.27.31:420][559]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-11.27.31:420][559]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.12-11.27.31:635][559]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.27.31:635][559]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.27.31:635][559]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.27.31:644][559]LogViewport: Scene viewport resized to 357x441, mode Windowed.
+[2024.06.12-11.27.31:755][561]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.06.12-11.27.31:755][561]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.27.31:755][561]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.27.31:755][561]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.27.31:755][561]MaterialEditorStats: Shader Count: 4
+[2024.06.12-11.27.35:657][797]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.27.35:657][797]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.27.35:657][797]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.27.35:701][799]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.06.12-11.27.35:701][799]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.27.35:701][799]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.27.35:701][799]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.27.35:701][799]MaterialEditorStats: Shader Count: 4
+[2024.06.12-11.27.39:616][ 25]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.27.39:616][ 25]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.27.39:616][ 25]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.27.39:660][ 27]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.06.12-11.27.39:660][ 27]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.27.39:660][ 27]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.27.39:660][ 27]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.27.39:660][ 27]MaterialEditorStats: Shader Count: 4
+[2024.06.12-11.27.42:872][222]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.27.42:872][222]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.27.42:872][222]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.27.42:922][224]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.06.12-11.27.42:922][224]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.27.42:922][224]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.27.42:922][224]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.27.42:922][224]MaterialEditorStats: Shader Count: 2
+[2024.06.12-11.27.46:385][438]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.27.46:386][438]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.27.46:386][438]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.27.46:432][440]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.06.12-11.27.46:432][440]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.27.46:432][440]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.27.46:432][440]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.27.46:432][440]MaterialEditorStats: Shader Count: 4
+[2024.06.12-11.27.48:075][534]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.27.48:075][534]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.27.48:075][534]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.27.48:137][536]MaterialEditorStats: Base pass shader: 192 instructions
+[2024.06.12-11.27.48:137][536]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.27.48:137][536]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.27.48:137][536]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.27.48:137][536]MaterialEditorStats: Shader Count: 4
+[2024.06.12-11.27.52:220][790]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.27.52:220][790]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.27.52:220][790]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: ================================================
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Total job queries 514, among them cache hits 338 (65.76%)
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Tracking 176 distinct input hashes that result in 85 distinct outputs (48.30%)
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: RAM used: 3.74 MiB of 819.20 MiB budget. Usage: 0.46%
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Shaders Compiled: 140
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Jobs assigned 140, completed 140 (100%)
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Average time worker was idle: 214.49 s
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.87 s
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Job execution time: average 0.40 s, max 1.13 s
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Job life time (pending + execution): average 0.48 s, max 1.29
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Shader code size: average 36.479 KiB, min 29.613 KiB, max 60.785 KiB
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14.96 s
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Jobs were issued in 140 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Average processing rate: 9.36 jobs/sec
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Total thread time: 35.728 s
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Total thread preprocess time: 4.436 s
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Percentage time preprocessing: 12.42%
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Effective parallelization: 2.39 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 0.35 sec, max 0.45 sec, min 0.30 sec)
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    3 times, average 0.34 sec, max 0.43 sec, min 0.29 sec)
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    3 times, average 0.33 sec, max 0.38 sec, min 0.29 sec)
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 0.33 sec, max 0.43 sec, min 0.28 sec)
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    3 times, average 0.32 sec, max 0.40 sec, min 0.28 sec)
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.86% of total time (compiled   31 times, average 0.29 sec, max 0.45 sec, min 0.19 sec)
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.20% of total time (compiled   31 times, average 0.28 sec, max 0.48 sec, min 0.22 sec)
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.81% of total time (compiled   21 times, average 0.27 sec, max 0.35 sec, min 0.22 sec)
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.47% of total time (compiled   21 times, average 0.13 sec, max 0.21 sec, min 0.10 sec)
+[2024.06.12-11.27.52:375][791]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 2.95% of total time (compiled    3 times, average 0.35 sec, max 0.45 sec, min 0.30 sec)
+[2024.06.12-11.27.52:376][791]LogShaderCompilers: Display: ================================================
+[2024.06.12-11.27.52:402][792]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.06.12-11.27.52:402][792]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.27.52:402][792]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.27.52:402][792]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.27.52:402][792]MaterialEditorStats: Shader Count: 2
+[2024.06.12-11.27.54:883][948]LogMaterialEditor: Applying material SlideMetal
+[2024.06.12-11.27.55:033][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.06.12-11.27.55:223][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.06.12-11.28.01:481][334]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.28.01:481][334]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.28.01:481][334]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.28.01:532][336]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.06.12-11.28.01:532][336]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.28.01:532][336]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.28.01:532][336]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.28.01:532][336]MaterialEditorStats: Shader Count: 2
+[2024.06.12-11.28.03:399][449]LogMaterialEditor: Applying material SlideMetal
+[2024.06.12-11.28.03:507][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.06.12-11.28.04:097][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.06.12-11.28.09:396][771]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.28.09:396][771]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.28.09:396][771]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.28.09:447][773]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.06.12-11.28.09:447][773]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.28.09:447][773]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.28.09:447][773]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.28.09:447][773]MaterialEditorStats: Shader Count: 2
+[2024.06.12-11.28.11:406][892]LogMaterialEditor: Applying material SlideMetal
+[2024.06.12-11.28.11:515][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.06.12-11.28.11:721][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.06.12-11.28.21:057][447]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-11.28.21:057][447]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.28.21:057][447]MaterialEditorStats: Shader Count: 0
+[2024.06.12-11.28.21:641][478]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.06.12-11.28.21:641][478]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.06.12-11.28.21:641][478]MaterialEditorStats: Texture samplers: 2/16
+[2024.06.12-11.28.21:641][478]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.06.12-11.28.21:641][478]MaterialEditorStats: Shader Count: 3
+[2024.06.12-11.28.24:842][666]LogMaterialEditor: Applying material SlideMetal
+[2024.06.12-11.28.24:951][666]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.06.12-11.28.25:457][666]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.06.12-11.28.30:838][981]LogSlate: Window 'SlideMetal' being destroyed
+[2024.06.12-11.28.30:843][981]LogSlate: Window 'SlideMetal' being destroyed
+[2024.06.12-11.28.30:889][981]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.06.12-11.28.30:889][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-11.28.32:432][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.06.12-11.28.32:547][135]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-11.28.33:629][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/SlideMetal" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/SlideMetal.uasset" SILENT=true
+[2024.06.12-11.28.33:632][135]LogSavePackage: Moving output files for package: /Game/Colors/SlideMetal
+[2024.06.12-11.28.33:632][135]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/SlideMetal4B90547A45E75000D0E1999693BD7B71.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/SlideMetal.uasset'
+[2024.06.12-11.28.33:636][135]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.08 sec (total: 5.64 sec)
+[2024.06.12-11.28.33:639][135]AssetCheck: New page: Asset Save: SlideMetal
+[2024.06.12-11.28.33:639][135]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/SlideMetal.SlideMetal
+[2024.06.12-11.28.41:041][807]Cmd: SELECT NONE
+[2024.06.12-11.29.23:358][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
