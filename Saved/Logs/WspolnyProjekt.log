@@ -1324,3 +1324,64 @@ GroupActor_1
 [2024.06.12-16.56.34:506][561]LogSavePackage: Moving '../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Saved/MateuszRusinek85FC76F94780951ACD596894C987F2E3.tmp' to '../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Content/Levels/MateuszRusinek.umap'
 [2024.06.12-16.56.34:526][561]AssetCheck: New page: Asset Save: MateuszRusinek
 [2024.06.12-16.56.34:526][561]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MateuszRusinek.MateuszRusinek
+[2024.06.12-16.57.27:110][284]Cmd: TRANSACTION UNDO
+[2024.06.12-16.57.27:110][284]LogEditorTransaction: Undo Move Elements
+[2024.06.12-16.57.28:170][331]Cmd: SELECT NONE
+[2024.06.12-16.57.33:143][590]Cmd: SELECT NONE
+[2024.06.12-16.57.54:271][836]Cmd: EDIT COPY
+[2024.06.12-16.57.54:483][848]Cmd: EDIT COPY
+[2024.06.12-16.57.55:184][889]Cmd: EDIT PASTE
+[2024.06.12-16.58.59:132][402]Cmd: SELECT NONE
+[2024.06.12-16.59.13:586][228]Cmd: SELECT NONE
+[2024.06.12-16.59.24:612][882]LogSlate: Took 0.011286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.06.12-17.00.41:808][ 62]Cmd: SELECT NONE
+[2024.06.12-17.00.55:175][761]Cmd: DELETE
+[2024.06.12-17.00.55:175][761]Cmd: ACTOR DELETE
+[2024.06.12-17.00.55:202][761]LogEditorActor: Deleted Actor: WideWindow_C
+[2024.06.12-17.00.55:220][761]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.06.12-17.00.55:224][761]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2024.06.12-17.00.55:918][799]Cmd: DELETE
+[2024.06.12-17.00.55:918][799]Cmd: ACTOR DELETE
+[2024.06.12-17.00.55:936][799]LogEditorActor: Deleted Actor: WideWindow_C
+[2024.06.12-17.00.55:953][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.06.12-17.00.55:957][799]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2024.06.12-17.00.57:587][894]Cmd: DELETE
+[2024.06.12-17.00.57:587][894]Cmd: ACTOR DELETE
+[2024.06.12-17.00.57:605][894]LogEditorActor: Deleted Actor: WideWindow_C
+[2024.06.12-17.00.57:625][894]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.06.12-17.00.57:627][894]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2024.06.12-17.01.02:338][143]Cmd: DELETE
+[2024.06.12-17.01.02:338][143]Cmd: ACTOR DELETE
+[2024.06.12-17.01.02:364][143]LogEditorActor: Deleted Actor: WideWindow_C
+[2024.06.12-17.01.02:386][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.06.12-17.01.02:389][143]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2024.06.12-17.01.02:958][171]Cmd: DELETE
+[2024.06.12-17.01.02:958][171]Cmd: ACTOR DELETE
+[2024.06.12-17.01.02:977][171]LogEditorActor: Deleted Actor: WideWindow_C
+[2024.06.12-17.01.02:996][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.06.12-17.01.02:998][171]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2024.06.12-17.01.08:287][459]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-17.01.08:428][459]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.06.12-17.01.08:439][459]LogSavePackage: Moving output files for package: /Game/Levels/PersistentLevel
+[2024.06.12-17.01.08:440][459]LogSavePackage: Moving '../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Saved/PersistentLevel2C19B58045B08207728967A825F6A616.tmp' to '../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Content/Levels/PersistentLevel.umap'
+[2024.06.12-17.01.08:448][459]LogFileHelpers: Saving map 'PersistentLevel' took 0.058
+[2024.06.12-17.01.08:457][459]LogFileHelpers: InternalPromptForCheckoutAndSave took 170 ms (total: 568 ms)
+[2024.06.12-17.01.08:459][459]AssetCheck: New page: Asset Save: PersistentLevel
+[2024.06.12-17.01.08:459][459]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/PersistentLevel.PersistentLevel
+[2024.06.12-17.04.20:996][924]Cmd: SELECT NONE
+[2024.06.12-17.04.41:538][989]Cmd: SELECT NONE
+[2024.06.12-17.04.59:290][ 43]Cmd: TRANSACTION UNDO
+[2024.06.12-17.04.59:290][ 43]LogEditorTransaction: Undo Select None
+[2024.06.12-17.04.59:778][ 50]Cmd: TRANSACTION UNDO
+[2024.06.12-17.04.59:778][ 50]LogEditorTransaction: Undo Move Elements
+[2024.06.12-17.05.07:708][505]Cmd: SELECT NONE
+[2024.06.12-17.05.11:536][700]Cmd: EDIT COPY
+[2024.06.12-17.05.12:567][761]Cmd: SELECT NONE
+[2024.06.12-17.05.56:544][954]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-17.05.56:688][954]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2024.06.12-17.05.56:831][954]LogSavePackage: Moving output files for package: /Game/Levels/MateuszRusinek
+[2024.06.12-17.05.56:832][954]LogSavePackage: Moving '../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Saved/MateuszRusinek9CDC1B02431309F2E12FFC8882551FAB.tmp' to '../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Content/Levels/MateuszRusinek.umap'
+[2024.06.12-17.05.56:843][954]LogFileHelpers: Saving map 'MateuszRusinek' took 0.182
+[2024.06.12-17.05.56:858][954]LogFileHelpers: InternalPromptForCheckoutAndSave took 313 ms (total: 882 ms)
+[2024.06.12-17.05.56:863][954]AssetCheck: New page: Asset Save: MateuszRusinek
+[2024.06.12-17.05.56:863][954]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MateuszRusinek.MateuszRusinek
