@@ -2356,3 +2356,830 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.12-11.28.33:639][135]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/SlideMetal.SlideMetal
 [2024.06.12-11.28.41:041][807]Cmd: SELECT NONE
 [2024.06.12-11.29.23:358][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.06.12-11.29.44:218][393]Cmd: SELECT NONE
+[2024.06.12-11.52.32:523][ 58]LogViewport: Scene viewport resized to 1057x588, mode Windowed.
+[2024.06.12-11.52.37:229][444]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\przem\Desktop\bench.fbx)
+[2024.06.12-11.52.37:233][444]LogFbx: Loading FBX Scene from C:\Users\przem\Desktop\bench.fbx
+[2024.06.12-11.52.37:237][444]LogFbx: FBX Scene Loaded Succesfully
+[2024.06.12-11.52.38:274][444]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.06.12-11.52.38:396][444]LogFbx: Display: Triangulating static mesh Cube.006
+[2024.06.12-11.52.38:413][444]LogStaticMesh: Display: Building static mesh bench...
+[2024.06.12-11.52.38:424][444]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/bench.bench
+[2024.06.12-11.52.38:426][444]LogStaticMesh: Warning: bench has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2024.06.12-11.52.38:426][444]LogStaticMesh: Warning: bench has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.06.12-11.52.38:449][444]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.06.12-11.52.38:449][444]FBXImport: Warning: bench has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2024.06.12-11.52.38:449][444]FBXImport: Warning: bench has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.06.12-11.52.39:338][445]LogViewport: Scene viewport resized to 1604x892, mode Windowed.
+[2024.06.12-11.52.40:489][526]LogSlate: Window 'Message Log' being destroyed
+[2024.06.12-11.52.40:503][526]LogSlate: Window 'Message Log' being destroyed
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: ================================================
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Total job queries 602, among them cache hits 394 (65.45%)
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Tracking 208 distinct input hashes that result in 96 distinct outputs (46.15%)
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: RAM used: 4.46 MiB of 819.20 MiB budget. Usage: 0.54%
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Shaders Compiled: 158
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Jobs assigned 158, completed 158 (100%)
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Average time worker was idle: 192.43 s
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.87 s
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Job execution time: average 0.42 s, max 1.13 s
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Job life time (pending + execution): average 0.50 s, max 1.29
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Shader code size: average 37.041 KiB, min 29.613 KiB, max 60.785 KiB
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 17.51 s
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Jobs were issued in 158 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Average processing rate: 9.02 jobs/sec
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Total thread time: 41.859 s
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Total thread preprocess time: 5.357 s
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Percentage time preprocessing: 12.80%
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Effective parallelization: 2.39 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    4 times, average 0.38 sec, max 0.48 sec, min 0.29 sec)
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    4 times, average 0.36 sec, max 0.44 sec, min 0.29 sec)
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    4 times, average 0.36 sec, max 0.45 sec, min 0.30 sec)
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    4 times, average 0.36 sec, max 0.47 sec, min 0.30 sec)
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    4 times, average 0.34 sec, max 0.40 sec, min 0.28 sec)
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.35% of total time (compiled   32 times, average 0.29 sec, max 0.47 sec, min 0.19 sec)
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 21.63% of total time (compiled   32 times, average 0.28 sec, max 0.48 sec, min 0.22 sec)
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display:                                                 FLumenCardVS - 14.42% of total time (compiled   22 times, average 0.27 sec, max 0.39 sec, min 0.22 sec)
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.87% of total time (compiled   22 times, average 0.13 sec, max 0.21 sec, min 0.10 sec)
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 3.60% of total time (compiled    4 times, average 0.38 sec, max 0.48 sec, min 0.29 sec)
+[2024.06.12-11.52.40:975][575]LogShaderCompilers: Display: ================================================
+[2024.06.12-11.52.44:134][829]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/bench.bench
+[2024.06.12-11.52.44:134][829]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/bench.bench
+[2024.06.12-11.52.44:135][829]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/bench.bench as actor: StaticMeshActor /Game/Levels/PrzemyslawSajan.PrzemyslawSajan:PersistentLevel.StaticMeshActor_15
+[2024.06.12-11.52.45:244][932]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/bench.bench
+[2024.06.12-11.52.45:244][932]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/bench.bench
+[2024.06.12-11.52.45:245][932]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/bench.bench as actor: StaticMeshActor /Game/Levels/PrzemyslawSajan.PrzemyslawSajan:PersistentLevel.StaticMeshActor_16
+[2024.06.12-11.52.57:828][109]Cmd: SELECT NONE
+[2024.06.12-11.52.58:997][213]Cmd: TRANSACTION UNDO
+[2024.06.12-11.52.58:997][213]LogEditorTransaction: Undo Select None
+[2024.06.12-11.52.59:374][221]Cmd: TRANSACTION UNDO
+[2024.06.12-11.52.59:374][221]LogEditorTransaction: Undo Create Actors
+[2024.06.12-11.53.05:335][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.06.12-11.53.06:150][705]LogSlate: Window 'Delete Assets' being destroyed
+[2024.06.12-11.53.06:168][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.06.12-11.53.06:178][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.06.12-11.53.06:188][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.06.12-11.53.07:285][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.06.12-11.53.08:117][785]LogSlate: Window 'Delete Assets' being destroyed
+[2024.06.12-11.53.08:134][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.06.12-11.53.08:144][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.06.12-11.53.08:153][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.06.12-11.53.10:720][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.06.12-11.53.11:633][992]LogSlate: Window 'Delete Assets' being destroyed
+[2024.06.12-11.53.11:648][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.06.12-11.53.11:660][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.06.12-11.53.11:670][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.06.12-11.53.12:569][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.06.12-11.53.13:513][ 59]LogSlate: Window 'Delete Assets' being destroyed
+[2024.06.12-11.53.13:529][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.06.12-11.53.13:541][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.06.12-11.53.13:551][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.06.12-11.54.22:187][470]LogViewport: Scene viewport resized to 1057x588, mode Windowed.
+[2024.06.12-11.54.28:253][891]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\przem\Desktop\bench.fbx)
+[2024.06.12-11.54.28:258][891]LogFbx: Loading FBX Scene from C:\Users\przem\Desktop\bench.fbx
+[2024.06.12-11.54.28:262][891]LogFbx: FBX Scene Loaded Succesfully
+[2024.06.12-11.54.29:644][891]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.06.12-11.54.29:785][891]LogFbx: Display: Triangulating static mesh Cube.009
+[2024.06.12-11.54.29:801][891]LogStaticMesh: Display: Building static mesh bench...
+[2024.06.12-11.54.29:812][891]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/bench.bench
+[2024.06.12-11.54.29:814][891]LogStaticMesh: Warning: bench has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2024.06.12-11.54.29:814][891]LogStaticMesh: Warning: bench has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.06.12-11.54.29:835][891]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.06.12-11.54.29:835][891]FBXImport: Warning: bench has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2024.06.12-11.54.29:835][891]FBXImport: Warning: bench has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.06.12-11.54.30:871][896]LogViewport: Scene viewport resized to 1604x892, mode Windowed.
+[2024.06.12-11.54.33:074][ 70]LogSlate: Window 'Message Log' being destroyed
+[2024.06.12-11.54.33:088][ 70]LogSlate: Window 'Message Log' being destroyed
+[2024.06.12-11.54.35:353][243]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/bench.bench
+[2024.06.12-11.54.35:353][243]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/bench.bench
+[2024.06.12-11.54.35:353][243]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/bench.bench as actor: StaticMeshActor /Game/Levels/PrzemyslawSajan.PrzemyslawSajan:PersistentLevel.StaticMeshActor_17
+[2024.06.12-11.54.36:395][334]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/bench.bench
+[2024.06.12-11.54.36:395][334]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/bench.bench
+[2024.06.12-11.54.36:396][334]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/bench.bench as actor: StaticMeshActor /Game/Levels/PrzemyslawSajan.PrzemyslawSajan:PersistentLevel.StaticMeshActor_18
+[2024.06.12-11.54.50:440][488]LogMetaData: Removing '/Game/Colors/Bin.Bin:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Assets/Bin.PackageMetaData'
+[2024.06.12-11.54.50:440][488]LogMetaData: Removing '/Game/Colors/Bin.Bin_C' ref from Metadata '/Game/Assets/Bin.PackageMetaData'
+[2024.06.12-11.54.50:440][488]LogMetaData: Removing '/Game/Colors/Bin.Bin:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Assets/Bin.PackageMetaData'
+[2024.06.12-11.54.50:440][488]LogMetaData: Removing '/Game/Colors/Bin.Bin:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Assets/Bin.PackageMetaData'
+[2024.06.12-11.54.50:440][488]LogMetaData: Removing '/Game/Colors/Bin.Bin:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Assets/Bin.PackageMetaData'
+[2024.06.12-11.54.50:440][488]LogMetaData: Removing '/Game/Colors/Bin.SKEL_Bin_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/Bin.PackageMetaData'
+[2024.06.12-11.54.50:440][488]LogMetaData: Removing '/Game/Colors/Bin.SKEL_Bin_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Assets/Bin.PackageMetaData'
+[2024.06.12-11.54.50:440][488]LogMetaData: Removing '/Game/Colors/Bin.SKEL_Bin_C:ReceiveTick' ref from Metadata '/Game/Assets/Bin.PackageMetaData'
+[2024.06.12-11.54.50:440][488]LogMetaData: Removing '/Game/Colors/Bin.SKEL_Bin_C:UserConstructionScript' ref from Metadata '/Game/Assets/Bin.PackageMetaData'
+[2024.06.12-11.54.50:440][488]LogMetaData: Removing '/Game/Colors/Bin.SKEL_Bin_C' ref from Metadata '/Game/Assets/Bin.PackageMetaData'
+[2024.06.12-11.54.50:463][488]LogMetaData: Removing '/Game/Colors/Lightbulb.Lightbulb:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Assets/Lightbulb.PackageMetaData'
+[2024.06.12-11.54.50:463][488]LogMetaData: Removing '/Game/Colors/Lightbulb.Lightbulb_C' ref from Metadata '/Game/Assets/Lightbulb.PackageMetaData'
+[2024.06.12-11.54.50:463][488]LogMetaData: Removing '/Game/Colors/Lightbulb.Lightbulb:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Assets/Lightbulb.PackageMetaData'
+[2024.06.12-11.54.50:463][488]LogMetaData: Removing '/Game/Colors/Lightbulb.Lightbulb:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Assets/Lightbulb.PackageMetaData'
+[2024.06.12-11.54.50:463][488]LogMetaData: Removing '/Game/Colors/Lightbulb.Lightbulb:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Assets/Lightbulb.PackageMetaData'
+[2024.06.12-11.54.50:463][488]LogMetaData: Removing '/Game/Colors/Lightbulb.SKEL_Lightbulb_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/Lightbulb.PackageMetaData'
+[2024.06.12-11.54.50:463][488]LogMetaData: Removing '/Game/Colors/Lightbulb.SKEL_Lightbulb_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Assets/Lightbulb.PackageMetaData'
+[2024.06.12-11.54.50:463][488]LogMetaData: Removing '/Game/Colors/Lightbulb.SKEL_Lightbulb_C:ReceiveTick' ref from Metadata '/Game/Assets/Lightbulb.PackageMetaData'
+[2024.06.12-11.54.50:463][488]LogMetaData: Removing '/Game/Colors/Lightbulb.SKEL_Lightbulb_C:UserConstructionScript' ref from Metadata '/Game/Assets/Lightbulb.PackageMetaData'
+[2024.06.12-11.54.50:463][488]LogMetaData: Removing '/Game/Colors/Lightbulb.SKEL_Lightbulb_C' ref from Metadata '/Game/Assets/Lightbulb.PackageMetaData'
+[2024.06.12-11.54.50:478][488]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-11.54.50:572][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/PlankLightBrown" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/PlankLightBrown.uasset" SILENT=true
+[2024.06.12-11.54.50:573][488]LogSavePackage: Moving output files for package: /Game/Colors/PlankLightBrown
+[2024.06.12-11.54.50:573][488]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/PlankLightBrown2EE04FCD4A78A50E4FCACC9C40A9FE8F.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/PlankLightBrown.uasset'
+[2024.06.12-11.54.50:591][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/PlankBrown" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/PlankBrown.uasset" SILENT=true
+[2024.06.12-11.54.50:592][488]LogSavePackage: Moving output files for package: /Game/Colors/PlankBrown
+[2024.06.12-11.54.50:592][488]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/PlankBrown5D12525148CAE0D5179DF98DB33CD79A.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/PlankBrown.uasset'
+[2024.06.12-11.54.50:609][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/BenchBlack" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/BenchBlack.uasset" SILENT=true
+[2024.06.12-11.54.50:610][488]LogSavePackage: Moving output files for package: /Game/Colors/BenchBlack
+[2024.06.12-11.54.50:610][488]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/BenchBlack1EBDE4954C24F249CEF79AA0533E9212.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/BenchBlack.uasset'
+[2024.06.12-11.54.50:610][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Bin" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Bin.uasset" SILENT=true
+[2024.06.12-11.54.50:612][488]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/Colors/Bin does not exist, will not scan.
+[2024.06.12-11.54.50:615][488]LogSavePackage: Moving output files for package: /Game/Colors/Bin
+[2024.06.12-11.54.50:615][488]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Bin4B1C6D4D404117093ACC34AE3A0D8CE7.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Bin.uasset'
+[2024.06.12-11.54.50:617][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Bin" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/Bin.uasset" SILENT=true
+[2024.06.12-11.54.50:618][488]LogSavePackage: Moving output files for package: /Game/Assets/Bin
+[2024.06.12-11.54.50:618][488]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/BinAC6383A945A720BA06A6BC994F5F3A85.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/Bin.uasset'
+[2024.06.12-11.54.50:620][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/binn" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/binn.uasset" SILENT=true
+[2024.06.12-11.54.50:624][488]LogSavePackage: Moving output files for package: /Game/Colors/binn
+[2024.06.12-11.54.50:624][488]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/binn5D2F9A3E4526DC73FEF231AEC3F535CB.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/binn.uasset'
+[2024.06.12-11.54.50:624][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/binn" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/binn.uasset" SILENT=true
+[2024.06.12-11.54.50:625][488]LogSavePackage: Moving output files for package: /Game/Assets/binn
+[2024.06.12-11.54.50:625][488]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/binn8F2B9A00432249CE3A50A390EF8437B1.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/binn.uasset'
+[2024.06.12-11.54.50:626][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/golden_key" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/golden_key.uasset" SILENT=true
+[2024.06.12-11.54.50:630][488]LogSavePackage: Moving output files for package: /Game/Colors/golden_key
+[2024.06.12-11.54.50:630][488]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/golden_key2328AE4946EB5565F2F218B93B14BBBE.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/golden_key.uasset'
+[2024.06.12-11.54.50:630][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/golden_key" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/golden_key.uasset" SILENT=true
+[2024.06.12-11.54.50:631][488]LogSavePackage: Moving output files for package: /Game/Assets/golden_key
+[2024.06.12-11.54.50:631][488]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/golden_keyAAE8EF934352081EA7C293A9ADE33A84.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/golden_key.uasset'
+[2024.06.12-11.54.50:631][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Lightbulb" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Lightbulb.uasset" SILENT=true
+[2024.06.12-11.54.50:631][488]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/Colors/Lightbulb does not exist, will not scan.
+[2024.06.12-11.54.50:634][488]LogSavePackage: Moving output files for package: /Game/Colors/Lightbulb
+[2024.06.12-11.54.50:634][488]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Lightbulb0405736E4243A76B49962784798D1D0C.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Lightbulb.uasset'
+[2024.06.12-11.54.50:637][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Lightbulb" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/Lightbulb.uasset" SILENT=true
+[2024.06.12-11.54.50:637][488]LogSavePackage: Moving output files for package: /Game/Assets/Lightbulb
+[2024.06.12-11.54.50:637][488]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/LightbulbD556E227497ED31588AC04A6FFB4747C.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/Lightbulb.uasset'
+[2024.06.12-11.54.50:784][488]LogFileHelpers: InternalPromptForCheckoutAndSave took 305 ms (total: 5.95 sec)
+[2024.06.12-11.54.51:277][488]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.06.12-11.54.51:291][488]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.06.12-11.54.51:299][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.06.12-11.54.51:312][488]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.12-11.54.51:312][488]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/PlankLightBrown.PlankLightBrown
+[2024.06.12-11.54.51:312][488]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/PlankBrown.PlankBrown
+[2024.06.12-11.54.51:312][488]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/BenchBlack.BenchBlack
+[2024.06.12-11.54.51:312][488]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Colors/Bin.Bin
+[2024.06.12-11.54.51:312][488]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Assets/Bin.Bin_C
+[2024.06.12-11.54.51:312][488]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Assets/Bin.Bin
+[2024.06.12-11.54.51:312][488]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Assets/Bin.Default__Bin_C
+[2024.06.12-11.54.51:312][488]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Colors/binn.binn
+[2024.06.12-11.54.51:312][488]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Assets/binn.binn
+[2024.06.12-11.54.51:312][488]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Colors/golden_key.golden_key
+[2024.06.12-11.54.51:312][488]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Assets/golden_key.golden_key
+[2024.06.12-11.54.51:312][488]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Colors/Lightbulb.Lightbulb
+[2024.06.12-11.54.51:312][488]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Assets/Lightbulb.Lightbulb
+[2024.06.12-11.54.51:312][488]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Assets/Lightbulb.Lightbulb_C
+[2024.06.12-11.54.51:312][488]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Assets/Lightbulb.Default__Lightbulb_C
+[2024.06.12-11.55.04:269][536]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-11.55.04:313][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/binn" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/binn.uasset" SILENT=true
+[2024.06.12-11.55.04:316][536]LogSavePackage: Moving output files for package: /Game/Assets/binn
+[2024.06.12-11.55.04:316][536]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/binn3E6BEF9D4C5CD023DCF03F9090CB55FE.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/binn.uasset'
+[2024.06.12-11.55.04:322][536]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 6.00 sec)
+[2024.06.12-11.55.04:524][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.06.12-11.55.04:536][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.06.12-11.55.04:546][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.06.12-11.55.04:671][536]SourceControl: rm 'Content/Colors/binn.uasset'
+[2024.06.12-11.55.04:685][536]AssetCheck: New page: Asset Save: binn
+[2024.06.12-11.55.04:685][536]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/binn.binn
+[2024.06.12-11.55.04:744][540]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'D:/butekwspolnyprojekt/WspolnyProjekt2'
+[2024.06.12-11.55.18:268][573]LogMetaData: Removing '/Game/Assets/Bin.Bin_C' ref from Metadata '/Game/Colors/Bin.PackageMetaData'
+[2024.06.12-11.55.18:268][573]LogMetaData: Removing '/Game/Assets/Bin.SKEL_Bin_C' ref from Metadata '/Game/Colors/Bin.PackageMetaData'
+[2024.06.12-11.55.18:268][573]LogMetaData: Removing '/Game/Assets/Bin.SKEL_Bin_C:ReceiveBeginPlay' ref from Metadata '/Game/Colors/Bin.PackageMetaData'
+[2024.06.12-11.55.18:268][573]LogMetaData: Removing '/Game/Assets/Bin.SKEL_Bin_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Colors/Bin.PackageMetaData'
+[2024.06.12-11.55.18:268][573]LogMetaData: Removing '/Game/Assets/Bin.SKEL_Bin_C:ReceiveTick' ref from Metadata '/Game/Colors/Bin.PackageMetaData'
+[2024.06.12-11.55.18:268][573]LogMetaData: Removing '/Game/Assets/Bin.SKEL_Bin_C:UserConstructionScript' ref from Metadata '/Game/Colors/Bin.PackageMetaData'
+[2024.06.12-11.55.18:268][573]LogMetaData: Removing '/Game/Assets/Bin.Bin:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Colors/Bin.PackageMetaData'
+[2024.06.12-11.55.18:268][573]LogMetaData: Removing '/Game/Assets/Bin.Bin:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Colors/Bin.PackageMetaData'
+[2024.06.12-11.55.18:268][573]LogMetaData: Removing '/Game/Assets/Bin.Bin:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Colors/Bin.PackageMetaData'
+[2024.06.12-11.55.18:268][573]LogMetaData: Removing '/Game/Assets/Bin.Bin:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Colors/Bin.PackageMetaData'
+[2024.06.12-11.55.18:294][573]LogMetaData: Removing '/Game/Assets/Lightbulb.Lightbulb_C' ref from Metadata '/Game/Colors/Lightbulb.PackageMetaData'
+[2024.06.12-11.55.18:294][573]LogMetaData: Removing '/Game/Assets/Lightbulb.SKEL_Lightbulb_C' ref from Metadata '/Game/Colors/Lightbulb.PackageMetaData'
+[2024.06.12-11.55.18:294][573]LogMetaData: Removing '/Game/Assets/Lightbulb.SKEL_Lightbulb_C:ReceiveBeginPlay' ref from Metadata '/Game/Colors/Lightbulb.PackageMetaData'
+[2024.06.12-11.55.18:294][573]LogMetaData: Removing '/Game/Assets/Lightbulb.SKEL_Lightbulb_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Colors/Lightbulb.PackageMetaData'
+[2024.06.12-11.55.18:294][573]LogMetaData: Removing '/Game/Assets/Lightbulb.SKEL_Lightbulb_C:ReceiveTick' ref from Metadata '/Game/Colors/Lightbulb.PackageMetaData'
+[2024.06.12-11.55.18:294][573]LogMetaData: Removing '/Game/Assets/Lightbulb.SKEL_Lightbulb_C:UserConstructionScript' ref from Metadata '/Game/Colors/Lightbulb.PackageMetaData'
+[2024.06.12-11.55.18:294][573]LogMetaData: Removing '/Game/Assets/Lightbulb.Lightbulb:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Colors/Lightbulb.PackageMetaData'
+[2024.06.12-11.55.18:294][573]LogMetaData: Removing '/Game/Assets/Lightbulb.Lightbulb:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Colors/Lightbulb.PackageMetaData'
+[2024.06.12-11.55.18:294][573]LogMetaData: Removing '/Game/Assets/Lightbulb.Lightbulb:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Colors/Lightbulb.PackageMetaData'
+[2024.06.12-11.55.18:294][573]LogMetaData: Removing '/Game/Assets/Lightbulb.Lightbulb:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Colors/Lightbulb.PackageMetaData'
+[2024.06.12-11.55.18:308][573]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-11.55.18:385][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Bin" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/Bin.uasset" SILENT=true
+[2024.06.12-11.55.18:388][573]LogSavePackage: Moving output files for package: /Game/Assets/Bin
+[2024.06.12-11.55.18:388][573]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Bin2EC9F37347ED2291A4265CA431E91DBC.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/Bin.uasset'
+[2024.06.12-11.55.18:391][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/golden_key" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/golden_key.uasset" SILENT=true
+[2024.06.12-11.55.18:394][573]LogSavePackage: Moving output files for package: /Game/Assets/golden_key
+[2024.06.12-11.55.18:394][573]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/golden_key33291A184F8981B2D484C7B994B6E4D4.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/golden_key.uasset'
+[2024.06.12-11.55.18:401][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Lightbulb" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/Lightbulb.uasset" SILENT=true
+[2024.06.12-11.55.18:403][573]LogSavePackage: Moving output files for package: /Game/Assets/Lightbulb
+[2024.06.12-11.55.18:404][573]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Lightbulb8D64DF074A9A839156FC35921563195E.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/Lightbulb.uasset'
+[2024.06.12-11.55.18:409][573]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 6.10 sec)
+[2024.06.12-11.55.18:622][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.06.12-11.55.18:634][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.06.12-11.55.18:643][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.06.12-11.55.18:767][573]SourceControl: rm 'Content/Colors/Bin.uasset'
+[2024.06.12-11.55.18:767][573]SourceControl: rm 'Content/Colors/Lightbulb.uasset'
+[2024.06.12-11.55.18:767][573]SourceControl: rm 'Content/Colors/golden_key.uasset'
+[2024.06.12-11.55.18:786][573]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.12-11.55.18:786][573]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Assets/Bin.Default__Bin_C_2
+[2024.06.12-11.55.18:786][573]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/Bin.Bin
+[2024.06.12-11.55.18:786][573]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/golden_key.golden_key
+[2024.06.12-11.55.18:786][573]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Assets/Lightbulb.Default__Lightbulb_C_2
+[2024.06.12-11.55.18:786][573]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Assets/Lightbulb.Lightbulb
+[2024.06.12-11.56.00:936][977]Cmd: SELECT NONE
+[2024.06.12-11.56.21:890][ 54]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.06.12-11.56.21:920][ 54]LogContentBrowser: Creating deferred item: NewFolder
+[2024.06.12-11.56.21:927][ 55]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.06.12-11.56.24:193][281]LogContentBrowser: Attempting asset rename: NewFolder -> bench
+[2024.06.12-11.56.24:193][281]LogContentBrowser: End creating deferred item NewFolder
+[2024.06.12-11.56.40:736][631]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-11.56.40:774][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/bench/BenchBlack" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/bench/BenchBlack.uasset" SILENT=true
+[2024.06.12-11.56.40:775][631]LogSavePackage: Moving output files for package: /Game/Colors/bench/BenchBlack
+[2024.06.12-11.56.40:775][631]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/BenchBlack7B3304764D202C1D95F1F4B472122728.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/bench/BenchBlack.uasset'
+[2024.06.12-11.56.40:778][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/bench/PlankBrown" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/bench/PlankBrown.uasset" SILENT=true
+[2024.06.12-11.56.40:778][631]LogSavePackage: Moving output files for package: /Game/Colors/bench/PlankBrown
+[2024.06.12-11.56.40:778][631]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/PlankBrownA00E4271457C44EE99A29684A434E24C.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/bench/PlankBrown.uasset'
+[2024.06.12-11.56.40:778][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/bench/PlankLightBrown" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/bench/PlankLightBrown.uasset" SILENT=true
+[2024.06.12-11.56.40:779][631]LogSavePackage: Moving output files for package: /Game/Colors/bench/PlankLightBrown
+[2024.06.12-11.56.40:780][631]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/PlankLightBrown938FED35499BC8A07DCFE9B8756378E5.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/bench/PlankLightBrown.uasset'
+[2024.06.12-11.56.40:917][631]LogFileHelpers: InternalPromptForCheckoutAndSave took 181 ms (total: 6.29 sec)
+[2024.06.12-11.56.41:115][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.06.12-11.56.41:130][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.06.12-11.56.41:141][631]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.06.12-11.56.41:264][631]SourceControl: rm 'Content/Colors/BenchBlack.uasset'
+[2024.06.12-11.56.41:264][631]SourceControl: rm 'Content/Colors/PlankBrown.uasset'
+[2024.06.12-11.56.41:264][631]SourceControl: rm 'Content/Colors/PlankLightBrown.uasset'
+[2024.06.12-11.56.41:278][631]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.12-11.56.41:278][631]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/bench/BenchBlack.BenchBlack
+[2024.06.12-11.56.41:278][631]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/bench/PlankBrown.PlankBrown
+[2024.06.12-11.56.41:278][631]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/bench/PlankLightBrown.PlankLightBrown
+[2024.06.12-12.00.24:062][ 75]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.06.12-12.00.24:096][ 75]LogContentBrowser: Creating deferred item: NewFolder
+[2024.06.12-12.00.24:104][ 76]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.06.12-12.00.25:568][226]LogContentBrowser: Attempting asset rename: NewFolder -> keys
+[2024.06.12-12.00.25:568][226]LogContentBrowser: End creating deferred item NewFolder
+[2024.06.12-12.00.36:974][172]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-12.00.37:013][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/keys/Gold" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/keys/Gold.uasset" SILENT=true
+[2024.06.12-12.00.37:015][172]LogSavePackage: Moving output files for package: /Game/Colors/keys/Gold
+[2024.06.12-12.00.37:015][172]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Gold9555B51247F1BFF188933AB0F16BBD0E.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/keys/Gold.uasset'
+[2024.06.12-12.00.37:017][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Gold" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Gold.uasset" SILENT=true
+[2024.06.12-12.00.37:018][172]LogSavePackage: Moving output files for package: /Game/Colors/Gold
+[2024.06.12-12.00.37:018][172]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/GoldBCEC669645CD3C4725CC73A731E96FF2.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Gold.uasset'
+[2024.06.12-12.00.37:018][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/keys/Silver" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/keys/Silver.uasset" SILENT=true
+[2024.06.12-12.00.37:019][172]LogSavePackage: Moving output files for package: /Game/Colors/keys/Silver
+[2024.06.12-12.00.37:019][172]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/SilverFBEEC0054122B876EB8B0F8CB7CA8DEC.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/keys/Silver.uasset'
+[2024.06.12-12.00.37:020][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Silver" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Silver.uasset" SILENT=true
+[2024.06.12-12.00.37:020][172]LogSavePackage: Moving output files for package: /Game/Colors/Silver
+[2024.06.12-12.00.37:020][172]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/SilverBDAB682945CCAD264C5E21A92C4FD11E.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Silver.uasset'
+[2024.06.12-12.00.37:159][172]LogFileHelpers: InternalPromptForCheckoutAndSave took 184 ms (total: 6.47 sec)
+[2024.06.12-12.00.37:445][172]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.12-12.00.37:445][172]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/keys/Gold.Gold
+[2024.06.12-12.00.37:445][172]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Colors/Gold.Gold
+[2024.06.12-12.00.37:445][172]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/keys/Silver.Silver
+[2024.06.12-12.00.37:445][172]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Colors/Silver.Silver
+[2024.06.12-12.00.40:357][423]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.06.12-12.00.40:369][423]LogContentBrowser: Creating deferred item: NewFolder
+[2024.06.12-12.00.40:377][424]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.06.12-12.00.42:792][669]LogContentBrowser: Attempting asset rename: NewFolder -> tree
+[2024.06.12-12.00.42:792][669]LogContentBrowser: End creating deferred item NewFolder
+[2024.06.12-12.01.03:165][463]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/tree.tree
+[2024.06.12-12.01.03:236][463]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-12.01.03:237][463]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.12-12.01.03:651][463]LogViewport: Scene viewport resized to 1334x888, mode Windowed.
+[2024.06.12-12.01.17:519][200]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-12.01.17:563][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/tree/LightGreen" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/tree/LightGreen.uasset" SILENT=true
+[2024.06.12-12.01.17:565][200]LogSavePackage: Moving output files for package: /Game/Colors/tree/LightGreen
+[2024.06.12-12.01.17:565][200]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/LightGreenA86633104F3A413FD3E03AA88C4E7A2C.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/tree/LightGreen.uasset'
+[2024.06.12-12.01.17:567][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/LightGreen" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/LightGreen.uasset" SILENT=true
+[2024.06.12-12.01.17:568][200]LogSavePackage: Moving output files for package: /Game/Colors/LightGreen
+[2024.06.12-12.01.17:568][200]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/LightGreenFF4B0EE14A1B9F6CBD8951A62FC63ABA.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/LightGreen.uasset'
+[2024.06.12-12.01.17:568][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/tree/TreeTrunk" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/tree/TreeTrunk.uasset" SILENT=true
+[2024.06.12-12.01.17:569][200]LogSavePackage: Moving output files for package: /Game/Colors/tree/TreeTrunk
+[2024.06.12-12.01.17:569][200]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/TreeTrunk5C22532D4EDCE2F3F76277959979A373.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/tree/TreeTrunk.uasset'
+[2024.06.12-12.01.17:570][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/TreeTrunk" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/TreeTrunk.uasset" SILENT=true
+[2024.06.12-12.01.17:571][200]LogSavePackage: Moving output files for package: /Game/Colors/TreeTrunk
+[2024.06.12-12.01.17:571][200]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/TreeTrunk1D8EDD894BCFD92B36B675A24D98CC62.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/TreeTrunk.uasset'
+[2024.06.12-12.01.17:571][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/tree/DarkGreen" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/tree/DarkGreen.uasset" SILENT=true
+[2024.06.12-12.01.17:573][200]LogSavePackage: Moving output files for package: /Game/Colors/tree/DarkGreen
+[2024.06.12-12.01.17:573][200]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/DarkGreen770AF2F7435F65D23580648ABE1DAABC.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/tree/DarkGreen.uasset'
+[2024.06.12-12.01.17:574][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/DarkGreen" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/DarkGreen.uasset" SILENT=true
+[2024.06.12-12.01.17:574][200]LogSavePackage: Moving output files for package: /Game/Colors/DarkGreen
+[2024.06.12-12.01.17:574][200]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/DarkGreen63DD377D449FB9E556B951A398FC230C.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/DarkGreen.uasset'
+[2024.06.12-12.01.17:707][200]LogFileHelpers: InternalPromptForCheckoutAndSave took 187 ms (total: 6.66 sec)
+[2024.06.12-12.01.18:076][200]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.12-12.01.18:076][200]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/tree/LightGreen.LightGreen
+[2024.06.12-12.01.18:076][200]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Colors/LightGreen.LightGreen
+[2024.06.12-12.01.18:076][200]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/tree/TreeTrunk.TreeTrunk
+[2024.06.12-12.01.18:076][200]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Colors/TreeTrunk.TreeTrunk
+[2024.06.12-12.01.18:076][200]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/tree/DarkGreen.DarkGreen
+[2024.06.12-12.01.18:076][200]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Colors/DarkGreen.DarkGreen
+[2024.06.12-12.01.19:304][272]LogViewport: Scene viewport resized to 883x365, mode Windowed.
+[2024.06.12-12.01.19:824][272]LogViewport: Scene viewport resized to 1405x894, mode Windowed.
+[2024.06.12-12.01.22:558][446]LogSlate: Window 'tree' being destroyed
+[2024.06.12-12.01.22:576][446]LogSlate: Window 'tree' being destroyed
+[2024.06.12-12.01.22:633][446]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.06.12-12.01.22:633][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-12.01.25:238][703]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/binn.binn
+[2024.06.12-12.01.25:311][703]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-12.01.25:311][703]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.12-12.01.25:724][703]LogViewport: Scene viewport resized to 1405x894, mode Windowed.
+[2024.06.12-12.01.30:836][  8]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.06.12-12.01.31:696][ 57]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.06.12-12.01.31:710][ 57]LogContentBrowser: Creating deferred item: NewFolder
+[2024.06.12-12.01.31:723][ 58]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.06.12-12.01.33:336][162]LogContentBrowser: Attempting asset rename: NewFolder -> bin
+[2024.06.12-12.01.33:336][162]LogContentBrowser: End creating deferred item NewFolder
+[2024.06.12-12.01.37:678][384]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-12.01.37:704][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/bin/BinMetal" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/bin/BinMetal.uasset" SILENT=true
+[2024.06.12-12.01.37:705][384]LogSavePackage: Moving output files for package: /Game/Colors/bin/BinMetal
+[2024.06.12-12.01.37:705][384]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/BinMetalD8F587984B6C4B698611A6A7CADC37EC.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/bin/BinMetal.uasset'
+[2024.06.12-12.01.37:707][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/BinMetal" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/BinMetal.uasset" SILENT=true
+[2024.06.12-12.01.37:708][384]LogSavePackage: Moving output files for package: /Game/Colors/BinMetal
+[2024.06.12-12.01.37:708][384]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/BinMetal1857BA29447B9A763F2556B717827974.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/BinMetal.uasset'
+[2024.06.12-12.01.37:709][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/bin/BinStone" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/bin/BinStone.uasset" SILENT=true
+[2024.06.12-12.01.37:709][384]LogSavePackage: Moving output files for package: /Game/Colors/bin/BinStone
+[2024.06.12-12.01.37:709][384]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/BinStone41D1DBB24172BBB90BC13DAB30957D87.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/bin/BinStone.uasset'
+[2024.06.12-12.01.37:710][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/BinStone" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/BinStone.uasset" SILENT=true
+[2024.06.12-12.01.37:711][384]LogSavePackage: Moving output files for package: /Game/Colors/BinStone
+[2024.06.12-12.01.37:711][384]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/BinStone233A3C974CD2A725594585BD95F498D0.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/BinStone.uasset'
+[2024.06.12-12.01.37:849][384]LogFileHelpers: InternalPromptForCheckoutAndSave took 170 ms (total: 6.83 sec)
+[2024.06.12-12.01.38:125][384]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.12-12.01.38:125][384]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/bin/BinMetal.BinMetal
+[2024.06.12-12.01.38:125][384]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Colors/BinMetal.BinMetal
+[2024.06.12-12.01.38:126][384]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/bin/BinStone.BinStone
+[2024.06.12-12.01.38:126][384]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Colors/BinStone.BinStone
+[2024.06.12-12.01.44:892][787]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.06.12-12.01.44:902][787]LogContentBrowser: Creating deferred item: NewFolder
+[2024.06.12-12.01.44:914][788]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.06.12-12.01.55:565][933]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2024.06.12-12.01.55:565][933]LogContentBrowser: End creating deferred item NewFolder
+[2024.06.12-12.01.59:500][163]LogContentBrowser: Attempting asset rename: NewFolder -> sandpit
+[2024.06.12-12.02.05:596][492]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-12.02.05:635][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/sandpit/Sand" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/sandpit/Sand.uasset" SILENT=true
+[2024.06.12-12.02.05:636][492]LogSavePackage: Moving output files for package: /Game/Colors/sandpit/Sand
+[2024.06.12-12.02.05:636][492]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Sand561474D042D435F06E77F4A9839F5051.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/sandpit/Sand.uasset'
+[2024.06.12-12.02.05:639][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Sand" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Sand.uasset" SILENT=true
+[2024.06.12-12.02.05:641][492]LogSavePackage: Moving output files for package: /Game/Colors/Sand
+[2024.06.12-12.02.05:641][492]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Sand372007CC442A223048F63CA77AA76607.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Sand.uasset'
+[2024.06.12-12.02.05:641][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/sandpit/Red" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/sandpit/Red.uasset" SILENT=true
+[2024.06.12-12.02.05:642][492]LogSavePackage: Moving output files for package: /Game/Colors/sandpit/Red
+[2024.06.12-12.02.05:642][492]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Red4F4861C44B079CEE7D0D7CAF929E07AC.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/sandpit/Red.uasset'
+[2024.06.12-12.02.05:643][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Red" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Red.uasset" SILENT=true
+[2024.06.12-12.02.05:643][492]LogSavePackage: Moving output files for package: /Game/Colors/Red
+[2024.06.12-12.02.05:643][492]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Red1597F7C54376F759238EBE9A9CA1EE12.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Red.uasset'
+[2024.06.12-12.02.05:780][492]LogFileHelpers: InternalPromptForCheckoutAndSave took 183 ms (total: 7.01 sec)
+[2024.06.12-12.02.06:068][492]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.12-12.02.06:068][492]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/sandpit/Sand.Sand
+[2024.06.12-12.02.06:068][492]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Colors/Sand.Sand
+[2024.06.12-12.02.06:068][492]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/sandpit/Red.Red
+[2024.06.12-12.02.06:068][492]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Colors/Red.Red
+[2024.06.12-12.02.10:121][725]LogContentBrowser: Attempting asset rename: Gray -> Grey
+[2024.06.12-12.02.10:681][725]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-12.02.10:729][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Grey" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Grey.uasset" SILENT=true
+[2024.06.12-12.02.10:730][725]LogSavePackage: Moving output files for package: /Game/Colors/Grey
+[2024.06.12-12.02.10:730][725]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Grey9192257541B6597A5EB27E9B2675E845.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Grey.uasset'
+[2024.06.12-12.02.10:732][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Gray" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Gray.uasset" SILENT=true
+[2024.06.12-12.02.10:732][725]LogSavePackage: Moving output files for package: /Game/Colors/Gray
+[2024.06.12-12.02.10:734][725]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Gray7BEF6E4D4FD953FB4E61EFA92C035FFF.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Gray.uasset'
+[2024.06.12-12.02.10:874][725]LogFileHelpers: InternalPromptForCheckoutAndSave took 192 ms (total: 7.20 sec)
+[2024.06.12-12.02.11:057][725]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.12-12.02.11:057][725]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/Grey.Grey
+[2024.06.12-12.02.11:057][725]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Colors/Gray.Gray
+[2024.06.12-12.02.13:038][830]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.06.12-12.02.13:060][830]LogContentBrowser: Creating deferred item: NewFolder
+[2024.06.12-12.02.13:071][831]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.06.12-12.02.14:848][946]LogContentBrowser: Attempting asset rename: NewFolder -> slide
+[2024.06.12-12.02.14:848][946]LogContentBrowser: End creating deferred item NewFolder
+[2024.06.12-12.02.20:373][243]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-12.02.20:414][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/slide/Slide" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/slide/Slide.uasset" SILENT=true
+[2024.06.12-12.02.20:415][243]LogSavePackage: Moving output files for package: /Game/Colors/slide/Slide
+[2024.06.12-12.02.20:415][243]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Slide1F39E7D546BAC4D2157B76811C8762C8.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/slide/Slide.uasset'
+[2024.06.12-12.02.20:417][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/Slide" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Slide.uasset" SILENT=true
+[2024.06.12-12.02.20:417][243]LogSavePackage: Moving output files for package: /Game/Colors/Slide
+[2024.06.12-12.02.20:417][243]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Slide887A370D4A45F47B76B663B01BBC1DDC.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/Slide.uasset'
+[2024.06.12-12.02.20:418][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/slide/SlideMetal" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/slide/SlideMetal.uasset" SILENT=true
+[2024.06.12-12.02.20:419][243]LogSavePackage: Moving output files for package: /Game/Colors/slide/SlideMetal
+[2024.06.12-12.02.20:419][243]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/SlideMetal939FD245444F1D7AE6F288BACC6FB8B6.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/slide/SlideMetal.uasset'
+[2024.06.12-12.02.20:419][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colors/SlideMetal" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/SlideMetal.uasset" SILENT=true
+[2024.06.12-12.02.20:420][243]LogSavePackage: Moving output files for package: /Game/Colors/SlideMetal
+[2024.06.12-12.02.20:420][243]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/SlideMetalC68F165B45EB317FE67DD08AF0E00915.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Colors/SlideMetal.uasset'
+[2024.06.12-12.02.20:559][243]LogFileHelpers: InternalPromptForCheckoutAndSave took 186 ms (total: 7.39 sec)
+[2024.06.12-12.02.20:833][243]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.12-12.02.20:833][243]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/slide/Slide.Slide
+[2024.06.12-12.02.20:833][243]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Colors/Slide.Slide
+[2024.06.12-12.02.20:833][243]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Colors/slide/SlideMetal.SlideMetal
+[2024.06.12-12.02.20:833][243]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Colors/SlideMetal.SlideMetal
+[2024.06.12-12.02.24:280][460]LogSlate: Window 'binn' being destroyed
+[2024.06.12-12.02.24:297][460]LogSlate: Window 'binn' being destroyed
+[2024.06.12-12.02.24:345][460]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.06.12-12.02.24:345][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-12.02.37:710][755]Cmd: SELECT NONE
+[2024.06.12-12.02.40:251][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.06.12-12.02.40:426][991]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-12.02.40:476][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/JakubMatyaszczyk" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/JakubMatyaszczyk.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.12-12.02.40:489][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.06.12-12.02.40:622][991]LogSavePackage: Moving output files for package: /Game/Levels/JakubMatyaszczyk
+[2024.06.12-12.02.40:622][991]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/JakubMatyaszczyk4A2246CB4563BAA24FB1998E9CE55658.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/JakubMatyaszczyk.umap'
+[2024.06.12-12.02.40:629][991]LogFileHelpers: Saving map 'JakubMatyaszczyk' took 0.154
+[2024.06.12-12.02.40:629][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PrzemyslawSajan" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/PrzemyslawSajan.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.12-12.02.40:643][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.06.12-12.02.40:647][991]LogSavePackage: Moving output files for package: /Game/Levels/PrzemyslawSajan
+[2024.06.12-12.02.40:648][991]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/PrzemyslawSajanDD20B75D4427DCF356CADB8E36877E79.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/PrzemyslawSajan.umap'
+[2024.06.12-12.02.40:654][991]LogFileHelpers: Saving map 'PrzemyslawSajan' took 0.025
+[2024.06.12-12.02.40:654][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP-s/CollectibleBP2" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/BP-s/CollectibleBP2.uasset" SILENT=true
+[2024.06.12-12.02.40:661][991]LogSavePackage: Moving output files for package: /Game/BP-s/CollectibleBP2
+[2024.06.12-12.02.40:661][991]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/CollectibleBP2705CE65A422DC15DFCE64DAA801EB0BF.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/BP-s/CollectibleBP2.uasset'
+[2024.06.12-12.02.40:699][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/bench" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/bench.uasset" SILENT=true
+[2024.06.12-12.02.40:703][991]LogSavePackage: Moving output files for package: /Game/Assets/bench
+[2024.06.12-12.02.40:703][991]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/bench80388513473481FB88A045940133B5F5.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Assets/bench.uasset'
+[2024.06.12-12.02.40:846][991]LogFileHelpers: InternalPromptForCheckoutAndSave took 420 ms (total: 7.81 sec)
+[2024.06.12-12.02.40:849][991]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.12-12.02.40:849][991]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/JakubMatyaszczyk.JakubMatyaszczyk
+[2024.06.12-12.02.40:849][991]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/PrzemyslawSajan.PrzemyslawSajan
+[2024.06.12-12.02.40:849][991]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP-s/CollectibleBP2.CollectibleBP2
+[2024.06.12-12.02.40:849][991]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/bench.bench
+[2024.06.12-12.03.24:500][230]Cmd: EDIT COPY
+[2024.06.12-12.03.24:804][260]Cmd: EDIT PASTE
+[2024.06.12-12.04.04:868][ 85]Cmd: TRANSACTION UNDO
+[2024.06.12-12.04.04:869][ 85]LogEditorTransaction: Undo Clicking on Elements
+[2024.06.12-12.04.05:372][ 96]Cmd: TRANSACTION UNDO
+[2024.06.12-12.04.05:372][ 96]LogEditorTransaction: Undo Move Elements
+[2024.06.12-12.04.05:906][141]Cmd: TRANSACTION UNDO
+[2024.06.12-12.04.05:906][141]LogEditorTransaction: Undo Rotate Elements
+[2024.06.12-12.04.06:368][183]Cmd: TRANSACTION UNDO
+[2024.06.12-12.04.06:368][183]LogEditorTransaction: Undo Move Elements
+[2024.06.12-12.04.07:146][255]Cmd: TRANSACTION UNDO
+[2024.06.12-12.04.07:146][255]LogEditorTransaction: Undo Paste
+[2024.06.12-12.04.32:658][689]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.06.12-12.04.59:903][740]Cmd: EDIT COPY
+[2024.06.12-12.05.00:359][783]Cmd: EDIT PASTE
+[2024.06.12-12.07.15:156][253]Cmd: TRANSACTION UNDO
+[2024.06.12-12.07.15:156][253]LogEditorTransaction: Undo Move Elements
+[2024.06.12-12.07.15:539][260]Cmd: TRANSACTION UNDO
+[2024.06.12-12.07.15:539][260]LogEditorTransaction: Undo Move Elements
+[2024.06.12-12.08.31:258][915]Cmd: EDIT COPY
+[2024.06.12-12.08.31:963][983]Cmd: EDIT PASTE
+[2024.06.12-12.09.19:425][116]Cmd: EDIT COPY
+[2024.06.12-12.09.19:735][148]Cmd: EDIT PASTE
+[2024.06.12-12.09.42:438][101]Cmd: TRANSACTION UNDO
+[2024.06.12-12.09.42:438][101]LogEditorTransaction: Undo Move Elements
+[2024.06.12-12.10.05:803][103]Cmd: TRANSACTION UNDO
+[2024.06.12-12.10.05:803][103]LogEditorTransaction: Undo Move Elements
+[2024.06.12-12.10.08:898][358]Cmd: TRANSACTION UNDO
+[2024.06.12-12.10.08:898][358]LogEditorTransaction: Undo Move Elements
+[2024.06.12-12.11.03:668][281]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.06.12-12.11.03:668][281]LogPlayLevel: [PlayLevel] Compiling Bin before play...
+[2024.06.12-12.11.03:690][281]LogPlayLevel: [PlayLevel] Compiling Lightbulb before play...
+[2024.06.12-12.11.03:701][281]LogPlayLevel: [PlayLevel] Compiling CollectibleBP2 before play...
+[2024.06.12-12.11.03:799][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.06.12-12.11.03:809][281]LogPlayLevel: PlayLevel: Blueprint regeneration took 141 ms (3 blueprints)
+[2024.06.12-12.11.03:809][281]PIE: New page: PIE session: PersistentLevel (Jun. 12, 2024, 4:11:03 p.m.)
+[2024.06.12-12.11.03:809][281]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.06.12-12.11.03:816][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007485s)
+[2024.06.12-12.11.03:816][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PersistentLevel.PersistentLevel to /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel (0.007516s)
+[2024.06.12-12.11.03:829][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.06.12-12.11.03:830][281]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-12.11.03:830][281]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.12-12.11.03:831][281]LogAIModule: Creating AISystem for world PersistentLevel
+[2024.06.12-12.11.03:831][281]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2024.06.12-12.11.03:831][281]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.06.12-12.11.03:831][281]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.12-12.11.03:831][281]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.12-12.11.03:831][281]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.12-12.11.03:831][281]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.12-12.11.03:831][281]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.12-12.11.03:831][281]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.12-12.11.03:831][281]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.12-12.11.03:831][281]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.12-12.11.03:832][281]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.12-12.11.03:832][281]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.12-12.11.03:832][281]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.12-12.11.03:833][281]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.12-12.11.03:857][281]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (NVIDIA High Definition Audio)
+[2024.06.12-12.11.03:857][281]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.12-12.11.03:857][281]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.12-12.11.03:857][281]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.12-12.11.03:857][281]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.06.12-12.11.03:857][281]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.06.12-12.11.03:860][281]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.06.12-12.11.03:860][281]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.06.12-12.11.03:860][281]LogInit: FAudioDevice initialized with ID 5.
+[2024.06.12-12.11.03:860][281]LogAudio: Display: Audio Device (ID: 5) registered with world 'PersistentLevel'.
+[2024.06.12-12.11.03:860][281]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.06.12-12.11.03:863][281]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.12-12.11.03:963][281]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel up for play (max tick rate 0) at 2024.06.12-14.11.03
+[2024.06.12-12.11.03:964][281]LogWorld: Bringing up level for play took: 0.004662
+[2024.06.12-12.11.03:966][281]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.06.12-12.11.03:975][281]PIE: Server logged in
+[2024.06.12-12.11.03:976][281]PIE: Play in editor total start time 0.308 seconds.
+[2024.06.12-12.11.09:065][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.12-12.11.09:065][800]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.06.12-12.11.09:073][800]LogWorld: UWorld::CleanupWorld for PersistentLevel, bSessionEnded=true, bCleanupResources=true
+[2024.06.12-12.11.09:074][800]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-12.11.09:077][800]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.12-12.11.09:081][800]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-12.11.09:099][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.12-12.11.09:100][800]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.06.12-12.11.09:100][800]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.06.12-12.11.09:102][800]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.06.12-12.11.09:121][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.06.12-12.11.09:141][801]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.06.12-12.11.09:156][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.06.12-12.11.26:983][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.12-12.11.26:983][451]PIE: New page: PIE session: PersistentLevel (Jun. 12, 2024, 4:11:26 p.m.)
+[2024.06.12-12.11.26:983][451]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.06.12-12.11.26:991][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007598s)
+[2024.06.12-12.11.26:991][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PersistentLevel.PersistentLevel to /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel (0.007629s)
+[2024.06.12-12.11.27:001][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.06.12-12.11.27:002][451]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-12.11.27:002][451]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.12-12.11.27:002][451]LogAIModule: Creating AISystem for world PersistentLevel
+[2024.06.12-12.11.27:003][451]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2024.06.12-12.11.27:003][451]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.06.12-12.11.27:003][451]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.12-12.11.27:003][451]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.12-12.11.27:003][451]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.12-12.11.27:003][451]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.12-12.11.27:003][451]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.12-12.11.27:003][451]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.12-12.11.27:003][451]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.12-12.11.27:003][451]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.12-12.11.27:003][451]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.12-12.11.27:003][451]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.12-12.11.27:003][451]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.12-12.11.27:005][451]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.12-12.11.27:029][451]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (NVIDIA High Definition Audio)
+[2024.06.12-12.11.27:030][451]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.12-12.11.27:030][451]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.12-12.11.27:030][451]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.12-12.11.27:030][451]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.06.12-12.11.27:030][451]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.06.12-12.11.27:032][451]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.06.12-12.11.27:032][451]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.06.12-12.11.27:032][451]LogInit: FAudioDevice initialized with ID 6.
+[2024.06.12-12.11.27:032][451]LogAudio: Display: Audio Device (ID: 6) registered with world 'PersistentLevel'.
+[2024.06.12-12.11.27:032][451]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.06.12-12.11.27:034][451]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.12-12.11.27:137][451]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel up for play (max tick rate 0) at 2024.06.12-14.11.27
+[2024.06.12-12.11.27:138][451]LogWorld: Bringing up level for play took: 0.004816
+[2024.06.12-12.11.27:140][451]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.06.12-12.11.27:147][451]PIE: Server logged in
+[2024.06.12-12.11.27:148][451]PIE: Play in editor total start time 0.165 seconds.
+[2024.06.12-12.11.33:686][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.12-12.11.33:686][115]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.06.12-12.11.33:693][115]LogWorld: UWorld::CleanupWorld for PersistentLevel, bSessionEnded=true, bCleanupResources=true
+[2024.06.12-12.11.33:695][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-12.11.33:697][115]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.12-12.11.33:701][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-12.11.33:719][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.12-12.11.33:719][115]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.06.12-12.11.33:719][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.06.12-12.11.33:721][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.06.12-12.11.33:739][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.06.12-12.11.33:760][116]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.06.12-12.11.33:773][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.06.12-12.11.45:195][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.12-12.11.45:195][101]PIE: New page: PIE session: PersistentLevel (Jun. 12, 2024, 4:11:45 p.m.)
+[2024.06.12-12.11.45:215][101]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.06.12-12.11.45:222][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007300s)
+[2024.06.12-12.11.45:222][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PersistentLevel.PersistentLevel to /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel (0.007334s)
+[2024.06.12-12.11.45:236][101]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.06.12-12.11.45:238][101]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-12.11.45:238][101]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.12-12.11.45:238][101]LogAIModule: Creating AISystem for world PersistentLevel
+[2024.06.12-12.11.45:238][101]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2024.06.12-12.11.45:239][101]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.06.12-12.11.45:239][101]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.12-12.11.45:239][101]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.12-12.11.45:239][101]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.12-12.11.45:239][101]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.12-12.11.45:239][101]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.12-12.11.45:239][101]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.12-12.11.45:239][101]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.12-12.11.45:239][101]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.12-12.11.45:239][101]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.12-12.11.45:239][101]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.12-12.11.45:239][101]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.12-12.11.45:241][101]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.12-12.11.45:263][101]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (NVIDIA High Definition Audio)
+[2024.06.12-12.11.45:264][101]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.12-12.11.45:264][101]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.12-12.11.45:264][101]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.12-12.11.45:264][101]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.06.12-12.11.45:264][101]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.06.12-12.11.45:266][101]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.06.12-12.11.45:266][101]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.06.12-12.11.45:266][101]LogInit: FAudioDevice initialized with ID 7.
+[2024.06.12-12.11.45:266][101]LogAudio: Display: Audio Device (ID: 7) registered with world 'PersistentLevel'.
+[2024.06.12-12.11.45:266][101]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.06.12-12.11.45:268][101]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.12-12.11.45:369][101]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel up for play (max tick rate 0) at 2024.06.12-14.11.45
+[2024.06.12-12.11.45:369][101]LogWorld: Bringing up level for play took: 0.004497
+[2024.06.12-12.11.45:372][101]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.06.12-12.11.45:379][101]PIE: Server logged in
+[2024.06.12-12.11.45:379][101]PIE: Play in editor total start time 0.185 seconds.
+[2024.06.12-12.11.56:126][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.12-12.11.56:126][213]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.06.12-12.11.56:133][213]LogWorld: UWorld::CleanupWorld for PersistentLevel, bSessionEnded=true, bCleanupResources=true
+[2024.06.12-12.11.56:133][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-12.11.56:137][213]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.12-12.11.56:140][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-12.11.56:159][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.12-12.11.56:159][213]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.06.12-12.11.56:159][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.06.12-12.11.56:161][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.06.12-12.11.56:179][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.06.12-12.11.56:199][214]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.06.12-12.11.56:211][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.06.12-12.12.13:994][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.12-12.12.13:994][392]PIE: New page: PIE session: PersistentLevel (Jun. 12, 2024, 4:12:13 p.m.)
+[2024.06.12-12.12.14:015][392]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.06.12-12.12.14:024][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007575s)
+[2024.06.12-12.12.14:024][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PersistentLevel.PersistentLevel to /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel (0.007614s)
+[2024.06.12-12.12.14:037][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.06.12-12.12.14:038][392]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-12.12.14:038][392]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.12-12.12.14:038][392]LogAIModule: Creating AISystem for world PersistentLevel
+[2024.06.12-12.12.14:039][392]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2024.06.12-12.12.14:039][392]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.06.12-12.12.14:039][392]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.12-12.12.14:039][392]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.12-12.12.14:039][392]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.12-12.12.14:039][392]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.12-12.12.14:039][392]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.12-12.12.14:039][392]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.12-12.12.14:039][392]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.12-12.12.14:039][392]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.12-12.12.14:039][392]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.12-12.12.14:039][392]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.12-12.12.14:039][392]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.12-12.12.14:041][392]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.12-12.12.14:064][392]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (NVIDIA High Definition Audio)
+[2024.06.12-12.12.14:064][392]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.12-12.12.14:064][392]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.12-12.12.14:064][392]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.12-12.12.14:065][392]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.06.12-12.12.14:065][392]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.06.12-12.12.14:066][392]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.06.12-12.12.14:066][392]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.06.12-12.12.14:066][392]LogInit: FAudioDevice initialized with ID 8.
+[2024.06.12-12.12.14:066][392]LogAudio: Display: Audio Device (ID: 8) registered with world 'PersistentLevel'.
+[2024.06.12-12.12.14:066][392]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.06.12-12.12.14:068][392]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.12-12.12.14:173][392]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel up for play (max tick rate 0) at 2024.06.12-14.12.14
+[2024.06.12-12.12.14:174][392]LogWorld: Bringing up level for play took: 0.004788
+[2024.06.12-12.12.14:175][392]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.06.12-12.12.14:183][392]PIE: Server logged in
+[2024.06.12-12.12.14:184][392]PIE: Play in editor total start time 0.189 seconds.
+[2024.06.12-12.12.20:276][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.12-12.12.20:276][ 16]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.06.12-12.12.20:284][ 16]LogWorld: UWorld::CleanupWorld for PersistentLevel, bSessionEnded=true, bCleanupResources=true
+[2024.06.12-12.12.20:284][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-12.12.20:288][ 16]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.12-12.12.20:291][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-12.12.20:310][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.12-12.12.20:310][ 16]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.06.12-12.12.20:310][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.06.12-12.12.20:312][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.06.12-12.12.20:329][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.06.12-12.12.20:350][ 17]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.06.12-12.12.20:363][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.06.12-12.12.32:899][103]Cmd: TRANSACTION UNDO
+[2024.06.12-12.12.32:899][103]LogEditorTransaction: Undo Move Elements
+[2024.06.12-12.12.33:446][113]Cmd: TRANSACTION UNDO
+[2024.06.12-12.12.33:446][113]LogEditorTransaction: Undo Scale Elements
+[2024.06.12-12.12.40:092][630]Cmd: TRANSACTION UNDO
+[2024.06.12-12.12.40:092][630]LogEditorTransaction: Undo Scale Elements
+[2024.06.12-12.12.40:624][642]Cmd: TRANSACTION UNDO
+[2024.06.12-12.12.40:624][642]LogEditorTransaction: Undo Clicking on Elements
+[2024.06.12-12.12.41:713][746]Cmd: TRANSACTION UNDO
+[2024.06.12-12.12.41:713][746]LogEditorTransaction: Undo Clicking on Elements
+[2024.06.12-12.12.52:511][628]Cmd: TRANSACTION UNDO
+[2024.06.12-12.12.52:511][628]LogEditorTransaction: Undo Scale Elements
+[2024.06.12-12.13.08:086][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.12-12.13.08:086][949]PIE: New page: PIE session: PersistentLevel (Jun. 12, 2024, 4:13:08 p.m.)
+[2024.06.12-12.13.08:086][949]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.06.12-12.13.08:096][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009130s)
+[2024.06.12-12.13.08:096][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PersistentLevel.PersistentLevel to /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel (0.009170s)
+[2024.06.12-12.13.08:111][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.06.12-12.13.08:113][949]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-12.13.08:113][949]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.12-12.13.08:114][949]LogAIModule: Creating AISystem for world PersistentLevel
+[2024.06.12-12.13.08:114][949]LogPlayLevel: PIE: World Init took: (0.001383s)
+[2024.06.12-12.13.08:114][949]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.06.12-12.13.08:114][949]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.12-12.13.08:114][949]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.12-12.13.08:114][949]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.12-12.13.08:114][949]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.12-12.13.08:114][949]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.12-12.13.08:114][949]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.12-12.13.08:114][949]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.12-12.13.08:114][949]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.12-12.13.08:114][949]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.12-12.13.08:114][949]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.12-12.13.08:114][949]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.12-12.13.08:117][949]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.12-12.13.08:143][949]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (NVIDIA High Definition Audio)
+[2024.06.12-12.13.08:144][949]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.12-12.13.08:144][949]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.12-12.13.08:144][949]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.12-12.13.08:144][949]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.06.12-12.13.08:144][949]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.06.12-12.13.08:147][949]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.06.12-12.13.08:147][949]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.06.12-12.13.08:147][949]LogInit: FAudioDevice initialized with ID 9.
+[2024.06.12-12.13.08:147][949]LogAudio: Display: Audio Device (ID: 9) registered with world 'PersistentLevel'.
+[2024.06.12-12.13.08:147][949]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.06.12-12.13.08:149][949]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.12-12.13.08:264][949]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel up for play (max tick rate 0) at 2024.06.12-14.13.08
+[2024.06.12-12.13.08:265][949]LogWorld: Bringing up level for play took: 0.005279
+[2024.06.12-12.13.08:266][949]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.06.12-12.13.08:274][949]PIE: Server logged in
+[2024.06.12-12.13.08:276][949]PIE: Play in editor total start time 0.19 seconds.
+[2024.06.12-12.13.17:957][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.12-12.13.17:957][957]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.06.12-12.13.17:965][957]LogWorld: UWorld::CleanupWorld for PersistentLevel, bSessionEnded=true, bCleanupResources=true
+[2024.06.12-12.13.17:965][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-12.13.17:968][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.12-12.13.17:972][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-12.13.17:991][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.12-12.13.17:991][957]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.06.12-12.13.17:991][957]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.06.12-12.13.17:993][957]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.06.12-12.13.18:010][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.06.12-12.13.18:031][958]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.06.12-12.13.18:044][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.06.12-12.13.47:419][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.12-12.13.47:419][540]PIE: New page: PIE session: PersistentLevel (Jun. 12, 2024, 4:13:47 p.m.)
+[2024.06.12-12.13.47:419][540]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.06.12-12.13.47:427][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007365s)
+[2024.06.12-12.13.47:427][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PersistentLevel.PersistentLevel to /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel (0.007395s)
+[2024.06.12-12.13.47:440][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.06.12-12.13.47:441][540]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-12.13.47:441][540]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.12-12.13.47:441][540]LogAIModule: Creating AISystem for world PersistentLevel
+[2024.06.12-12.13.47:442][540]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2024.06.12-12.13.47:442][540]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.06.12-12.13.47:442][540]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.12-12.13.47:442][540]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.12-12.13.47:442][540]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.12-12.13.47:442][540]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.12-12.13.47:442][540]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.12-12.13.47:442][540]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.12-12.13.47:442][540]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.12-12.13.47:442][540]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.12-12.13.47:442][540]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.12-12.13.47:442][540]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.12-12.13.47:442][540]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.12-12.13.47:443][540]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.12-12.13.47:467][540]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (NVIDIA High Definition Audio)
+[2024.06.12-12.13.47:467][540]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.12-12.13.47:467][540]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.12-12.13.47:467][540]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.12-12.13.47:468][540]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.06.12-12.13.47:468][540]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.06.12-12.13.47:469][540]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.06.12-12.13.47:469][540]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.06.12-12.13.47:469][540]LogInit: FAudioDevice initialized with ID 10.
+[2024.06.12-12.13.47:469][540]LogAudio: Display: Audio Device (ID: 10) registered with world 'PersistentLevel'.
+[2024.06.12-12.13.47:469][540]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.06.12-12.13.47:471][540]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.12-12.13.47:572][540]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PersistentLevel.PersistentLevel up for play (max tick rate 0) at 2024.06.12-14.13.47
+[2024.06.12-12.13.47:573][540]LogWorld: Bringing up level for play took: 0.004881
+[2024.06.12-12.13.47:575][540]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.06.12-12.13.47:583][540]PIE: Server logged in
+[2024.06.12-12.13.47:584][540]PIE: Play in editor total start time 0.165 seconds.
+[2024.06.12-12.13.58:608][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.12-12.13.58:608][700]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PersistentLevel
+[2024.06.12-12.13.58:615][700]LogWorld: UWorld::CleanupWorld for PersistentLevel, bSessionEnded=true, bCleanupResources=true
+[2024.06.12-12.13.58:615][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-12.13.58:618][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.12-12.13.58:622][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-12.13.58:641][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.12-12.13.58:641][700]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.06.12-12.13.58:641][700]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.06.12-12.13.58:643][700]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.06.12-12.13.58:662][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.06.12-12.13.58:695][701]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.06.12-12.13.58:737][702]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.06.12-12.14.01:005][933]Cmd: SELECT NONE
+[2024.06.12-12.14.02:333][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.06.12-12.14.02:429][ 56]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-12.14.02:471][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PrzemyslawSajan" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/PrzemyslawSajan.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.12-12.14.02:484][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.06.12-12.14.02:505][ 56]LogSavePackage: Moving output files for package: /Game/Levels/PrzemyslawSajan
+[2024.06.12-12.14.02:506][ 56]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/PrzemyslawSajan4707029A4F63E6FEDEA885801FB4A61B.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/PrzemyslawSajan.umap'
+[2024.06.12-12.14.02:512][ 56]LogFileHelpers: Saving map 'PrzemyslawSajan' took 0.040
+[2024.06.12-12.14.02:512][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MateuszRusinek" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/MateuszRusinek.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.12-12.14.02:523][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.06.12-12.14.02:562][ 56]LogSavePackage: Moving output files for package: /Game/Levels/MateuszRusinek
+[2024.06.12-12.14.02:562][ 56]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/MateuszRusinek6422D89840DA32D743F207B627089E60.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/MateuszRusinek.umap'
+[2024.06.12-12.14.02:568][ 56]LogFileHelpers: Saving map 'MateuszRusinek' took 0.057
+[2024.06.12-12.14.02:579][ 56]LogFileHelpers: InternalPromptForCheckoutAndSave took 150 ms (total: 7.96 sec)
+[2024.06.12-12.14.02:580][ 56]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.12-12.14.02:580][ 56]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/PrzemyslawSajan.PrzemyslawSajan
+[2024.06.12-12.14.02:580][ 56]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MateuszRusinek.MateuszRusinek
