@@ -1385,3 +1385,163 @@ GroupActor_1
 [2024.06.12-17.05.56:858][954]LogFileHelpers: InternalPromptForCheckoutAndSave took 313 ms (total: 882 ms)
 [2024.06.12-17.05.56:863][954]AssetCheck: New page: Asset Save: MateuszRusinek
 [2024.06.12-17.05.56:863][954]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MateuszRusinek.MateuszRusinek
+[2024.06.12-17.11.35:071][265]LogInterchangeEngine: [Pending] Importing
+[2024.06.12-17.11.35:072][265]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/theru/Desktop/gówno brajana.png]
+[2024.06.12-17.11.35:110][266]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.06.12-17.11.35:115][266]LogInterchangeEngine: [Pending] Importing
+[2024.06.12-17.11.35:405][266]LogTexture: Display: Building textures: /Game/graffiti/gówno_brajana.gówno_brajana (BGRA8, 444x233 x1x1x1) (Required Memory Estimate: 3.088058 MB), EncodeSpeed: Fast
+[2024.06.12-17.11.35:424][267]LogInterchangeEngine: [Success] Import Done
+[2024.06.12-17.11.35:465][267]LogInterchangeEngine: [Success] Import Done
+[2024.06.12-17.11.54:632][103]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.06.12-17.11.54:632][103]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.06.12-17.11.54:633][103]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/MateuszRusinek.MateuszRusinek:PersistentLevel.StaticMeshActor_134
+[2024.06.12-17.11.54:634][103]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/MateuszRusinek.MateuszRusinek:PersistentLevel.StaticMeshActor_134
+[2024.06.12-17.11.55:095][130]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.06.12-17.11.55:095][130]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.06.12-17.11.55:097][130]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/MateuszRusinek.MateuszRusinek:PersistentLevel.StaticMeshActor_154
+[2024.06.12-17.11.55:097][130]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Levels/MateuszRusinek.MateuszRusinek:PersistentLevel.StaticMeshActor_154
+[2024.06.12-17.11.57:143][243]Cmd: DELETE
+[2024.06.12-17.11.57:143][243]Cmd: ACTOR DELETE
+[2024.06.12-17.11.57:167][243]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.06.12-17.11.57:185][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.06.12-17.11.57:188][243]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2024.06.12-17.12.17:841][375]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/graffiti/gówno_brajana.gówno_brajana
+[2024.06.12-17.12.18:281][375]LogViewport: Scene viewport resized to 1419x843, mode Windowed.
+[2024.06.12-17.12.19:824][433]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-17.12.19:943][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/graffiti/gówno_brajana" FILE="../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Content/graffiti/gówno_brajana.uasset" SILENT=true
+[2024.06.12-17.12.19:951][433]LogSavePackage: Moving output files for package: /Game/graffiti/gówno_brajana
+[2024.06.12-17.12.19:951][433]LogSavePackage: Moving '../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Saved/gówno_brajanaCCEDB39C4374609116D6FB89ACC05123.tmp' to '../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Content/graffiti/gówno_brajana.uasset'
+[2024.06.12-17.12.20:184][433]LogFileHelpers: InternalPromptForCheckoutAndSave took 359 ms (total: 1.24 sec)
+[2024.06.12-17.12.20:185][433]AssetCheck: New page: Asset Save: gówno_brajana
+[2024.06.12-17.12.20:185][433]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/graffiti/gówno_brajana.gówno_brajana
+[2024.06.12-17.12.23:556][560]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: ================================================
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Total job queries 127, among them cache hits 49 (38.58%)
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Tracking 74 distinct input hashes that result in 55 distinct outputs (74.32%)
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: RAM used: 1,62 MiB of 819,20 MiB budget. Usage: 0.20%
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Shaders Compiled: 4
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Time job spent in pending queue: average 0.01 s, longest 0.02 s
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Job execution time: average 1.56 s, max 1.66 s
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Job life time (pending + execution): average 1.56 s, max 1.67
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Shader code size: average 33,915 KiB, min 29,766 KiB, max 35,938 KiB
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.68 s
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Average processing rate: 2.39 jobs/sec
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Total thread time: 3,206 s
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Total thread preprocess time: 0,632 s
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Percentage time preprocessing: 19.71%
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Effective parallelization: 1.91 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.06.12-17.12.23:980][571]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.06.12-17.12.23:982][571]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.92 sec, max 0.92 sec, min 0.92 sec)
+[2024.06.12-17.12.23:982][571]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.92 sec, max 0.92 sec, min 0.92 sec)
+[2024.06.12-17.12.23:982][571]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.90 sec, max 0.90 sec, min 0.90 sec)
+[2024.06.12-17.12.23:982][571]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.46 sec, max 0.46 sec, min 0.46 sec)
+[2024.06.12-17.12.23:982][571]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.06.12-17.12.23:982][571]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.79% of total time (compiled    1 times, average 0.92 sec, max 0.92 sec, min 0.92 sec)
+[2024.06.12-17.12.23:982][571]LogShaderCompilers: Display:                                                 FLumenCardVS - 28.75% of total time (compiled    1 times, average 0.92 sec, max 0.92 sec, min 0.92 sec)
+[2024.06.12-17.12.23:982][571]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 28.19% of total time (compiled    1 times, average 0.90 sec, max 0.90 sec, min 0.90 sec)
+[2024.06.12-17.12.23:982][571]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 14.28% of total time (compiled    1 times, average 0.46 sec, max 0.46 sec, min 0.46 sec)
+[2024.06.12-17.12.23:982][571]LogShaderCompilers: Display: ================================================
+[2024.06.12-17.12.26:897][665]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/graffiti/gówno_brajana_Mat.gówno_brajana_Mat
+[2024.06.12-17.12.26:912][665]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-17.12.26:912][665]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.12-17.12.27:062][665]LogTexture: Display: Waiting for textures to be ready 0/1 (/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1) ...
+[2024.06.12-17.12.27:385][665]MaterialEditorStats: Texture samplers: 0/16
+[2024.06.12-17.12.27:385][665]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.06.12-17.12.27:385][665]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.06.12-17.12.27:385][665]MaterialEditorStats: Shader Count: 0
+[2024.06.12-17.12.27:413][665]LogViewport: Scene viewport resized to 374x421, mode Windowed.
+[2024.06.12-17.12.27:585][667]MaterialEditorStats: Base pass shader: 196 instructions
+[2024.06.12-17.12.27:585][667]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.06.12-17.12.27:585][667]MaterialEditorStats: Texture samplers: 3/16
+[2024.06.12-17.12.27:585][667]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.06.12-17.12.27:585][667]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.06.12-17.12.27:585][667]MaterialEditorStats: Shader Count: 12
+[2024.06.12-17.12.28:569][681]LogMaterialEditor: Saving and Compiling material gówno_brajana_Mat
+[2024.06.12-17.12.28:728][681]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-17.12.28:906][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/graffiti/gówno_brajana_Mat" FILE="../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Content/graffiti/gówno_brajana_Mat.uasset" SILENT=true
+[2024.06.12-17.12.28:909][681]LogSavePackage: Moving output files for package: /Game/graffiti/gówno_brajana_Mat
+[2024.06.12-17.12.28:909][681]LogSavePackage: Moving '../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Saved/gówno_brajana_MatB0CC400D454F9FE7ACD9D3B0DF5C1C57.tmp' to '../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Content/graffiti/gówno_brajana_Mat.uasset'
+[2024.06.12-17.12.29:116][681]LogFileHelpers: InternalPromptForCheckoutAndSave took 388 ms (total: 1.62 sec)
+[2024.06.12-17.12.29:118][681]AssetCheck: New page: Asset Save: gówno_brajana_Mat
+[2024.06.12-17.12.29:118][681]LogContentValidation: Display: Validating /Script/Engine.Material /Game/graffiti/gówno_brajana_Mat.gówno_brajana_Mat
+[2024.06.12-17.12.30:690][731]Cmd: SELECT NONE
+[2024.06.12-17.12.37:154][ 84]Cmd: SELECT NONE
+[2024.06.12-17.12.50:884][808]Cmd: DELETE
+[2024.06.12-17.12.50:884][808]Cmd: ACTOR DELETE
+[2024.06.12-17.12.50:900][808]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.06.12-17.12.50:919][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.06.12-17.12.50:922][808]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2024.06.12-17.12.55:713][ 55]Cmd: SELECT NONE
+[2024.06.12-17.12.59:614][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-17.12.59:748][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.06.12-17.12.59:908][261]LogSavePackage: Moving output files for package: /Game/Levels/MateuszRusinek
+[2024.06.12-17.12.59:909][261]LogSavePackage: Moving '../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Saved/MateuszRusinek8F4A65514AEBA4FDC8872FB1BA46E19D.tmp' to '../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Content/Levels/MateuszRusinek.umap'
+[2024.06.12-17.12.59:919][261]LogFileHelpers: Saving map 'MateuszRusinek' took 0.189
+[2024.06.12-17.12.59:925][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 310 ms (total: 1.94 sec)
+[2024.06.12-17.12.59:929][261]AssetCheck: New page: Asset Save: MateuszRusinek
+[2024.06.12-17.12.59:929][261]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MateuszRusinek.MateuszRusinek
+[2024.06.12-17.13.07:826][330]LogSlate: Window 'gówno_brajana_Mat' being destroyed
+[2024.06.12-17.13.07:829][330]LogSlate: Window 'gówno_brajana_Mat' being destroyed
+[2024.06.12-17.13.07:869][330]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.06.12-17.13.07:869][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-17.13.19:970][462]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-17.13.20:109][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.06.12-17.13.20:237][462]LogSavePackage: Moving output files for package: /Game/Levels/MateuszRusinek
+[2024.06.12-17.13.20:238][462]LogSavePackage: Moving '../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Saved/MateuszRusinekDE7BF5F5466AD7C34DD9F380F35310A6.tmp' to '../../../../../../Users/theru/Documents/GitHub/WspolnyProjekt2/Content/Levels/MateuszRusinek.umap'
+[2024.06.12-17.13.20:245][462]LogFileHelpers: Saving map 'MateuszRusinek' took 0.158
+[2024.06.12-17.13.20:252][462]LogFileHelpers: InternalPromptForCheckoutAndSave took 282 ms (total: 2.22 sec)
+[2024.06.12-17.13.20:258][462]AssetCheck: New page: Asset Save: MateuszRusinek
+[2024.06.12-17.13.20:258][462]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MateuszRusinek.MateuszRusinek
+[2024.06.12-17.13.24:654][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:654][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:654][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:654][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:654][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:654][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:654][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:654][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:654][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:654][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:654][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.24:655][660]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/theru/Documents/GitHub/WspolnyProjekt2'
+[2024.06.12-17.13.33:635][660]LogSlate: Window 'Submit Files' being destroyed
+[2024.06.12-17.13.34:092][660]LogSourceControl: commit successful: [main 3ee7522] pierdoleopole
+[2024.06.12-17.13.34:147][660]SourceControl: [main 3ee7522] pierdoleopole
+[2024.06.12-17.13.34:147][660]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2024.06.12-17.13.34:219][660]SourceControl: Commited [main 3ee7522] pierdoleopole.
