@@ -1622,3 +1622,113 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.12-17.09.56:636][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
 [2024.06.12-17.09.56:663][810]LogPlayLevel: Display: Destroying online subsystem :Context_14
 [2024.06.12-17.09.56:676][810]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.06.12-17.11.18:708][673]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Levels/_GENERATED/przem/Rectangle_E6676A02.Rectangle_E6676A02
+[2024.06.12-17.11.18:757][673]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-17.11.18:757][673]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.12-17.11.19:399][673]LogViewport: Scene viewport resized to 1405x894, mode Windowed.
+[2024.06.12-17.11.20:729][751]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.06.12-17.11.20:750][752]LogShaderCompilers: Display: ================================================
+[2024.06.12-17.11.20:750][752]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.12-17.11.20:750][752]LogShaderCompilers: Display: Total job queries 92, among them cache hits 36 (39.13%)
+[2024.06.12-17.11.20:750][752]LogShaderCompilers: Display: Tracking 52 distinct input hashes that result in 30 distinct outputs (57.69%)
+[2024.06.12-17.11.20:750][752]LogShaderCompilers: Display: RAM used: 1.20 MiB of 819.20 MiB budget. Usage: 0.15%
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: Shaders Compiled: 4
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: Time job spent in pending queue: average 0.01 s, longest 0.01 s
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: Job execution time: average 0.49 s, max 0.54 s
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: Job life time (pending + execution): average 0.50 s, max 0.56
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: Shader code size: average 33.915 KiB, min 29.766 KiB, max 35.938 KiB
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.56 s
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: Average processing rate: 7.17 jobs/sec
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: Total thread time: 0.933 s
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: Total thread preprocess time: 0.094 s
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: Percentage time preprocessing: 10.13%
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: Effective parallelization: 1.67 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.10 sec, max 0.10 sec, min 0.10 sec)
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 32.64% of total time (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display:                                                 FLumenCardVS - 28.36% of total time (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 28.24% of total time (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 10.76% of total time (compiled    1 times, average 0.10 sec, max 0.10 sec, min 0.10 sec)
+[2024.06.12-17.11.20:751][752]LogShaderCompilers: Display: ================================================
+[2024.06.12-17.11.21:968][815]SourceControl: fatal: C:/UE_5.3/Engine/Content/EditorMaterials: 'C:/UE_5.3/Engine/Content/EditorMaterials' is outside repository at 'D:/butekwspolnyprojekt/WspolnyProjekt2'
+[2024.06.12-17.11.21:969][815]SourceControl: fatal: C:/UE_5.3/Engine/Content/BufferVisualization/LightingModel.uasset: 'C:/UE_5.3/Engine/Content/BufferVisualization/LightingModel.uasset' is outside repository at 'D:/butekwspolnyprojekt/WspolnyProjekt2'
+[2024.06.12-17.11.21:969][815]SourceControl: fatal: C:/UE_5.3/Engine/Content/EngineDebugMaterials/LightmapResolutionMaterial.uasset: 'C:/UE_5.3/Engine/Content/EngineDebugMaterials/LightmapResolutionMaterial.uasset' is outside repository at 'D:/butekwspolnyprojekt/WspolnyProjekt2'
+[2024.06.12-17.11.23:637][924]SourceControl: fatal: C:/UE_5.3/Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset: 'C:/UE_5.3/Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset' is outside repository at 'D:/butekwspolnyprojekt/WspolnyProjekt2'
+[2024.06.12-17.11.26:266][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.06.12-17.11.26:514][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-17.11.26:563][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PrzemyslawSajan" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/PrzemyslawSajan.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.12-17.11.26:576][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.06.12-17.11.26:587][ 90]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.009022 seconds
+[2024.06.12-17.11.26:614][ 90]LogSavePackage: Moving output files for package: /Game/Levels/PrzemyslawSajan
+[2024.06.12-17.11.26:615][ 90]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/PrzemyslawSajanE7734B7F483A5346817C78ABBDF02809.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/PrzemyslawSajan.umap'
+[2024.06.12-17.11.26:624][ 90]LogFileHelpers: Saving map 'PrzemyslawSajan' took 0.061
+[2024.06.12-17.11.26:634][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/_GENERATED/przem/Rectangle_E6676A02" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/_GENERATED/przem/Rectangle_E6676A02.uasset" SILENT=true
+[2024.06.12-17.11.26:639][ 90]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/przem/Rectangle_E6676A02
+[2024.06.12-17.11.26:639][ 90]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Rectangle_E6676A02A7D1F6AC495002C32AB080BB4E5D7B4C.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/_GENERATED/przem/Rectangle_E6676A02.uasset'
+[2024.06.12-17.11.26:640][ 90]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-17.11.26:668][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" SILENT=true
+[2024.06.12-17.11.26:691][ 90]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.06.12-17.11.26:692][ 90]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/BP_ThirdPersonCharacterF8A08399493DBE758DF8C0ACB84AFE6A.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.06.12-17.11.26:693][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP-s/DawidJasperJumpscare" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/BP-s/DawidJasperJumpscare.uasset" SILENT=true
+[2024.06.12-17.11.26:696][ 90]LogSavePackage: Moving output files for package: /Game/BP-s/DawidJasperJumpscare
+[2024.06.12-17.11.26:696][ 90]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/DawidJasperJumpscareE1EB01814FFDA702223870AED4538DC1.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/BP-s/DawidJasperJumpscare.uasset'
+[2024.06.12-17.11.26:865][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave took 351 ms
+[2024.06.12-17.11.26:868][ 90]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.12-17.11.26:868][ 90]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/PrzemyslawSajan.PrzemyslawSajan
+[2024.06.12-17.11.26:869][ 90]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Levels/_GENERATED/przem/Rectangle_E6676A02.Rectangle_E6676A02
+[2024.06.12-17.11.26:869][ 90]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.06.12-17.11.26:869][ 90]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP-s/DawidJasperJumpscare.DawidJasperJumpscare
+[2024.06.12-17.11.29:279][254]LogSlate: Window 'Rectangle_E6676A02' being destroyed
+[2024.06.12-17.11.29:285][254]LogSlate: Window 'Rectangle_E6676A02' being destroyed
+[2024.06.12-17.11.29:290][254]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.06.12-17.11.29:290][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-17.11.29:356][254]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.06.12-17.11.29:356][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.12-17.11.31:211][470]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Levels/_GENERATED/przem/Rectangle_E6676A02.Rectangle_E6676A02
+[2024.06.12-17.11.31:282][470]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.12-17.11.31:282][470]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.12-17.11.31:725][470]LogViewport: Scene viewport resized to 1405x894, mode Windowed.
+[2024.06.12-17.11.38:106][851]LogViewport: Scene viewport resized to 765x589, mode Windowed.
+[2024.06.12-17.11.53:055][250]Cmd: TRANSACTION UNDO
+[2024.06.12-17.11.53:055][250]LogEditorTransaction: Undo Move Elements
+[2024.06.12-17.12.06:986][194]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/przem/Rectangle_E6676A02.Rectangle_E6676A02
+[2024.06.12-17.12.06:987][194]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/przem/Rectangle_E6676A02.Rectangle_E6676A02
+[2024.06.12-17.12.06:989][194]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/_GENERATED/przem/Rectangle_E6676A02.Rectangle_E6676A02 as actor: StaticMeshActor /Game/Levels/PrzemyslawSajan.PrzemyslawSajan:PersistentLevel.StaticMeshActor_36
+[2024.06.12-17.12.09:535][378]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/przem/Rectangle_E6676A02.Rectangle_E6676A02
+[2024.06.12-17.12.09:535][378]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/przem/Rectangle_E6676A02.Rectangle_E6676A02
+[2024.06.12-17.12.09:536][378]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/_GENERATED/przem/Rectangle_E6676A02.Rectangle_E6676A02 as actor: StaticMeshActor /Game/Levels/PrzemyslawSajan.PrzemyslawSajan:PersistentLevel.StaticMeshActor_51
+[2024.06.12-17.12.09:897][402]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/przem/Rectangle_E6676A02.Rectangle_E6676A02
+[2024.06.12-17.12.09:897][402]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Levels/_GENERATED/przem/Rectangle_E6676A02.Rectangle_E6676A02
+[2024.06.12-17.12.09:897][402]LogActorFactory: Actor Factory spawned StaticMesh /Game/Levels/_GENERATED/przem/Rectangle_E6676A02.Rectangle_E6676A02 as actor: StaticMeshActor /Game/Levels/PrzemyslawSajan.PrzemyslawSajan:PersistentLevel.StaticMeshActor_52
+[2024.06.12-17.12.17:611][194]Cmd: DELETE
+[2024.06.12-17.12.17:612][194]Cmd: ACTOR DELETE
+[2024.06.12-17.12.17:640][194]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.06.12-17.12.17:657][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.06.12-17.12.17:659][194]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2024.06.12-17.12.32:055][640]SourceControl: fatal: C:/UE_5.3/Engine/Content/MaterialTemplates/Gradients: 'C:/UE_5.3/Engine/Content/MaterialTemplates/Gradients' is outside repository at 'D:/butekwspolnyprojekt/WspolnyProjekt2'
+[2024.06.12-17.12.32:055][640]SourceControl: fatal: C:/UE_5.3/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/GradientMap_Multi_Example.uasset: 'C:/UE_5.3/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/GradientMap_Multi_Example.uasset' is outside repository at 'D:/butekwspolnyprojekt/WspolnyProjekt2'
+[2024.06.12-17.12.32:055][640]SourceControl: fatal: C:/UE_5.3/Engine/Content/EditorMaterials/GridMaterial.uasset: 'C:/UE_5.3/Engine/Content/EditorMaterials/GridMaterial.uasset' is outside repository at 'D:/butekwspolnyprojekt/WspolnyProjekt2'
+[2024.06.12-17.12.32:055][640]SourceControl: fatal: C:/UE_5.3/Engine/Content/VREditor/WorldMovementGrid/GridMaterial.uasset: 'C:/UE_5.3/Engine/Content/VREditor/WorldMovementGrid/GridMaterial.uasset' is outside repository at 'D:/butekwspolnyprojekt/WspolnyProjekt2'
+[2024.06.12-17.12.38:909][209]Cmd: TRANSACTION UNDO
+[2024.06.12-17.12.38:909][209]LogEditorTransaction: Undo Move Elements
+[2024.06.12-17.13.07:187][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.06.12-17.13.07:343][121]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.12-17.13.07:374][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PrzemyslawSajan" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/PrzemyslawSajan.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.12-17.13.07:389][121]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.06.12-17.13.07:418][121]LogSavePackage: Moving output files for package: /Game/Levels/PrzemyslawSajan
+[2024.06.12-17.13.07:418][121]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/PrzemyslawSajanFB2ECE5643130BF269A80793684F4336.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/PrzemyslawSajan.umap'
+[2024.06.12-17.13.07:424][121]LogFileHelpers: Saving map 'PrzemyslawSajan' took 0.050
+[2024.06.12-17.13.07:463][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/_GENERATED/przem/Rectangle_E6676A02" FILE="D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/_GENERATED/przem/Rectangle_E6676A02.uasset" SILENT=true
+[2024.06.12-17.13.07:465][121]LogSavePackage: Moving output files for package: /Game/Levels/_GENERATED/przem/Rectangle_E6676A02
+[2024.06.12-17.13.07:466][121]LogSavePackage: Moving 'D:/butekwspolnyprojekt/WspolnyProjekt2/Saved/Rectangle_E6676A027D7993E2471C987E14F86A9DAA7F6BF4.tmp' to 'D:/butekwspolnyprojekt/WspolnyProjekt2/Content/Levels/_GENERATED/przem/Rectangle_E6676A02.uasset'
+[2024.06.12-17.13.07:484][121]LogFileHelpers: InternalPromptForCheckoutAndSave took 142 ms (total: 493 ms)
+[2024.06.12-17.13.07:485][121]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.12-17.13.07:485][121]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/PrzemyslawSajan.PrzemyslawSajan
+[2024.06.12-17.13.07:485][121]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Levels/_GENERATED/przem/Rectangle_E6676A02.Rectangle_E6676A02
